@@ -1,0 +1,30 @@
+p {
+  font-size: 18px;
+  color: $dark-blue;
+  font-weight: 400;
+}
+
+body{
+  background: $dark-blue;
+}
+body.login {
+  background-color: $dark-blue;
+  #nav a,
+  #backtoblog a {
+    font-weight: bold;
+    font-size: 15px;
+    color: $white;
+  }
+}
+.login form {
+  background: #e8e7dd;
+  opacity: 0.9;
+}
+.login h1 a {
+  background-image: url("../assets/imagens/");
+  background-size: auto;
+  width: 100%;
+}
+
+
+

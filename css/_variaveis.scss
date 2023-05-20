@@ -1,0 +1,50 @@
+$dark-blue: #090a16;
+$dark-blue-opacity: rgba(8, 9, 24, 0.8);
+$black: #000000;
+$white: #ffff;
+$blue:#2C4FFF;
+$h1-sm: 150%;
+$h1-md: 200%;
+$h2-sm: 145%;
+$h2-md: 170%;
+::selection {
+  color: $white;
+/*   background: $orange; */
+}
+::-moz-selection {
+  color: $white;
+ /*  background: $orange; */
+}
+@mixin sm {
+  @media (max-width: 575px) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: 576px) and (max-width: 991px) {
+    @content;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+li {
+  list-style-type: none;
+}
+
+html,
+body,
+.view {
+  height: 100%;
+}
