@@ -27,12 +27,21 @@ main {
     margin: 0 auto;
   }
   .come-alpes {
-    /* background-color: $dark-blue;
- */ /* position: relative;
-  display: inline-block;
- */
-
+    background-color: transparent;
+    position: relative;
     &::after {
+      content: url("https://cdn.discordapp.com/attachments/841400428134662155/1109543546479984650/Nuvem_9.png");
+      background-position: center;
+      background-attachment: fixed;
+      position: absolute;
+      top: 35rem;
+      background-size: auto;
+      right: 0;
+      /*  width: 100px;
+      height: 100px; */
+      animation: floatCloud 5s ease-in-out infinite alternate;
+    }
+    &::before {
       content: "";
       display: block;
       position: fixed;
@@ -44,11 +53,25 @@ main {
       z-index: -1;
       background-image: url(../assets/imagens/nuvem-top.webp);
       background-attachment: fixed;
-      background-position: -25rem 7rem;
+      background-position: -25rem 0rem;
       background-size: auto;
-      background-color: $dark-blue;
+      animation: floatCloud 9s ease-in-out infinite alternate;
+
+      /*     background-color: $dark-blue; */
       background-repeat: no-repeat;
-      overflow: hidden;
+      /* overflow: hidden; */
+    }
+
+    @keyframes floatCloud {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+      100% {
+        transform: translateY(0);
+      }
     }
     .card-hover {
       transition: all 1s ease;
@@ -56,61 +79,132 @@ main {
         background: $blue;
       }
     }
-    .desktop{
+    .desktop {
       display: inline-flex;
-      @include sm{
+      @include sm {
         display: none;
       }
     }
+    .timeline-scroll {
+      /* padding: 60px; */
+      position: absolute;
+      left: 96.5%;
+      z-index: 99;
+    }
+    .items {
+      position: relative;
+      height: 100vh;
+    }
+
+    .item {
+      display: flex;
+      margin-bottom: 40px;
+    }
+
+    .red-dot {
+      position: absolute;
+      width: 1px;
+      background-color: $border;
+      top: 0;
+      left: 90%;
+      height: 100vh;
+    }
+
+    .dot {
+      position: sticky;
+      width: 0.5rem;
+      height: 2.5rem;
+      margin-left: -0.25rem;
+      top: 80vh;
+      background: $blue;
+    }
+    .b-bottom {
+      border-bottom: 1px solid;
+      color: $border;
+    }
+
+    .b-right {
+      border-right: 1px solid;
+      color: $border;
+    }
+    .b-right-sm {
+      @include sm {
+        border: none;
+      }
+    }
+    .position-text {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
   }
-  .b-bottom {
-    border-bottom: 1px solid;
-    color: $border;
+
+  .bg-mountain {
+    background-image: url("https://cdn.discordapp.com/attachments/841400428134662155/1109570322526638090/Montanha_meio.png");
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
   }
-  
-  .b-right {
-    border-right: 1px solid;
-    color: $border;
+  .bravery-alpes {
+    background: $dark-blue;
+    img {
+      width: 5rem;
+    }
+    p {
+      color: $white;
+    }
   }
-  .b-right-sm{
-    @include sm{
-      border: none;
+  .circle-hover {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      top: -30px;
+      left: -16px;
+      width: 7rem;
+      height: 7rem;
+      border: 2px solid $blue;
+      border-radius: 50%;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+    &:hover {
+      &::after {
+        opacity: 1;
+      }
+      + {
+        .card-body {
+          transform: translateY(20px);
+        }
+      }
+    }
+  }
+
+  .card-body {
+    transition: transform 0.3s ease-in-out;
+  }
+  .image-container:hover + .card-body {
+    transform: translateY(20px);
+  }
+  .bg-adventure {
+    position: relative;
+    background-image: url("https://cdn.discordapp.com/attachments/841400428134662155/1109638065036742687/Group_6.png");
+    background-position: center 70%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    .position-text {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      img {
+        width: 5rem;
+      }
     }
   }
 }
-.timeline-scroll {
-  /* padding: 60px; */
-  position: absolute;
-  left: 96.5%;
-  z-index: 99;
-}
-.items {
-  position: relative;
-  height: 100vh;
-}
-
-.item {
-  display: flex;
-  margin-bottom: 40px;
-}
-
-.red-dot {
-  position: absolute;
-  width: 1px;
-  background-color:$border;
-  top: 0;
-  left: 90%;
-  height: 100%;
-}
-
-
-
-.dot {
-  position: sticky;
-  width: 0.5rem;
-  height: 2.5rem;
-  margin-left: -.25rem;
-  top: 80vh;
-  background: $blue;
-}
-
