@@ -1,13 +1,18 @@
 main {
+  @include sm{
+    overflow-x: hidden!important;
+  }
   h1,
   h2 {
     color: $white;
     text-transform: uppercase;
   }
   .bg-alpes {
+    @include sm {
+      background-size: cover;
+    }
     background-image: url(../assets//imagens/bg-alpes.webp);
-    background-position: center center;
-    background-size: auto;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
@@ -23,25 +28,32 @@ main {
     top: 7rem;
     width: 13rem;
     left: 0;
-    right: 2rem;
+    right: 0;
     margin: 0 auto;
   }
   .come-alpes {
     background-color: transparent;
     position: relative;
     &::after {
-      content: url("https://cdn.discordapp.com/attachments/841400428134662155/1109543546479984650/Nuvem_9.png");
+      @include sm {
+        top: 27rem;
+        overflow: hidden;
+        width: 7rem;
+      }
+      content: url(../assets/imagens/cloud-right.webp);
       background-position: center;
       background-attachment: fixed;
       position: absolute;
       top: 35rem;
       background-size: auto;
       right: 0;
-      /*  width: 100px;
-      height: 100px; */
       animation: floatCloud 5s ease-in-out infinite alternate;
     }
     &::before {
+      @include sm {
+        background-image: none;
+        background-color: $dark-blue;
+      }
       content: "";
       display: block;
       position: fixed;
@@ -56,10 +68,7 @@ main {
       background-position: -25rem 0rem;
       background-size: auto;
       animation: floatCloud 9s ease-in-out infinite alternate;
-
-      /*     background-color: $dark-blue; */
       background-repeat: no-repeat;
-      /* overflow: hidden; */
     }
 
     @keyframes floatCloud {
@@ -86,7 +95,6 @@ main {
       }
     }
     .timeline-scroll {
-      /* padding: 60px; */
       position: absolute;
       left: 96.5%;
       z-index: 99;
@@ -107,7 +115,10 @@ main {
       background-color: $border;
       top: 0;
       left: 90%;
-      height: 100vh;
+      height: 455vh;
+      @include xl2 {
+        height: 500vh;
+      }
     }
 
     .dot {
@@ -141,8 +152,7 @@ main {
   }
 
   .bg-mountain {
-    background-image: url("https://cdn.discordapp.com/attachments/841400428134662155/1109570322526638090/Montanha_meio.png");
-    background-position: center center;
+    background-image: url(../assets/imagens/bg-mountain.webp);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -191,7 +201,7 @@ main {
   }
   .bg-adventure {
     position: relative;
-    background-image: url("https://cdn.discordapp.com/attachments/841400428134662155/1109638065036742687/Group_6.png");
+    background-image: url(../assets/imagens/bg-adventure.webp);
     background-position: center 70%;
     background-size: 100%;
     background-repeat: no-repeat;

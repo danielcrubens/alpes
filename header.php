@@ -26,7 +26,7 @@
   <header>
     <nav class=" navbar navbar-expand-lg fixed-top scrolling-navbar d-none d-lg-block">
       <div class="col-xl-12 d-lg-flex justify-content-center m-auto align-items-center ">
-        <div class="container-fluid">
+        <div class="container-fluid py-3">
           <div class="d-none d-lg-block">
             <ul class="d-flex m-auto mr-xl-auto mr-5 align-items-center nav-list">
               <li class="mr-xl-4">
@@ -48,8 +48,9 @@
               </li>
             </ul>
           </div>
-
+<div class="teste">
           <a class="img-fluid"><?php the_custom_logo(); ?></a>
+          </div>
 
           <div class="d-none d-lg-block">
             <ul class="d-flex m-auto ml-xl-auto ml-5 align-items-center nav-list">

@@ -8,14 +8,14 @@
     <div class="col-xl-11">
       <div class="container-fluid">
         <div class="row d-flex justify-content-center">
-          <h1 class="text-center">Com a gente você já está no topo</h1>
+          <h1 class="text-center h1-responsive">Com a gente você já está no topo</h1>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="pt-5 come-alpes">
-    <div class="col-12 py-5">
+  <section class="pt-5 come-alpes d-md-block d-none">
+    <div class="col-12 py-md-5">
       <div class="container-fluid">
         <div class="timeline-scroll d-none d-md-block">
           <div class="items">
@@ -26,8 +26,8 @@
         </div>
 
         <div class="col-xl-11 col-md-11 h-100 m-auto">
-          <div class="container-fluid pt-5">
-            <div class="py-5">
+          <div class="container-fluid pt-md-5">
+            <div class="py-md-5">
               <h2 class="h2-responsive text-center">VENHA CAMINHAR COM OS GIGANTES</h2>
               <img loading="lazy" class="img-fluid d-flex m-auto" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
             </div>
@@ -74,7 +74,7 @@
               </div>
             </div>
 
-            <div class="row d-block d-lg-none d-inline-flex">
+            <div class="row d-block d-lg-none d-inline-flex mt-3 mt-md-0">
               <div class="col-xl-3 col-6 col-md-3 d-none  d-md-block d-lg-flex b-right b-bottom p-1 py-1">
                 <div class="d-flex w-100 h-100 card-hover">
                   <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/joie.svg" alt="Logo Joie">
@@ -116,19 +116,20 @@
                 </div>
               </div>
             </div>
-            <div class="d-flex my-md-5">
+            <div class="d-flex my-md-5 mt-5">
               <a class="btn-alpes m-auto"> CONHEÇA NOSSOS CLIENTES</a>
             </div>
-            <div class="py-5">
+
+            <div class="py-5 mt-10">
               <h2 class="h2-responsive text-center">CASES</h2>
               <img loading="lazy" class="img-fluid d-flex m-auto" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
             </div>
-            <img loading="lazy" class="img-fluid d-flex m-auto" src="https://cdn.discordapp.com/attachments/841400428134662155/1109530357012910082/Group_2.png" alt="Logo Alpes">
+            <img loading="lazy" class="img-fluid d-md-flex m-auto d-md-block d-none" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/imagens/grid-cases.webp" alt="Grid Cases">
           </div>
           <div class="d-flex my-md-5">
             <a class="btn-alpes m-auto">CASES DE SUCESSO</a>
           </div>
-          <div class="py-5">
+          <div class="py-5 mt-10">
             <div class="pt-5">
               <h2 class="h2-responsive text-center">ANTES DE ESCALAR, PEÇA AJUDA AOS GIGANTES</h2>
               <img loading="lazy" class="img-fluid d-flex m-auto" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
@@ -226,6 +227,139 @@
     </section>
   </section>
 
+  <section class=" come-alpes d-md-none d-block">
+    <div class="col-11 py-md-5 m-auto">
+      <div class="container-fluid pt-md-5">
+        <div class="py-md-5 pt-5">
+          <h2 class="h2-responsive text-center">VENHA CAMINHAR COM OS GIGANTES</h2>
+          <img loading="lazy" class="img-fluid d-flex m-auto" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
+        </div>
+        <div class="row d-block d-lg-none d-inline-flex mt-3 mt-md-0">
+          <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right b-bottom p-1 py-1">
+            <div class="d-flex w-100 h-100 card-hover">
+              <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/ervik.svg" alt="Logo Ervik">
+            </div>
+          </div>
+          <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-bottom p-1 py-1">
+            <div class="d-flex w-100 h-100 card-hover">
+              <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/hardrock.svg" alt="Logo Hard Rock">
+            </div>
+          </div>
+          <div class="col-xl-3 col-6 col-md-3 col-md-3 d-flex b-right p-1 py-1">
+            <div class="d-flex w-100 h-100 card-hover">
+              <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/hardrock.svg" alt="Logo Hard Rock">
+            </div>
+          </div>
+          <div class="col-xl-3 col-6 col-md-3 d-flex b-right b-right-sm p-1 py-1">
+            <div class="d-flex w-100 h-100 card-hover">
+              <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/giovanna.svg" alt="Logo giovanna">
+            </div>
+          </div>
+        </div>
+        <div class="d-flex mt-5">
+          <a class="btn-alpes m-auto"> CONHEÇA NOSSOS CLIENTES</a>
+        </div>
+      </div>
+    </div>
+
+    <section class="mt-5">
+      <div class="pt-5">
+        <h2 class="h2-responsive text-center">CASES</h2>
+        <img loading="lazy" class="img-fluid d-flex m-auto" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
+      </div>
+      <div class="col-12 mt-4 m-0 p-0">
+        <div class="container-fluid p-0">
+          <img loading="lazy" class="img-fluid d-flex m-auto d-block d-md-none" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/imagens/grid-cases-mobile.webp" alt="Grid Cases">
+          <div class="d-flex my-5">
+            <a class="btn-alpes m-auto">CASES DE SUCESSO</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="pt-5">
+        <h2 class="h2-responsive text-center">ANTES DE ESCALAR, PEÇA AJUDA AOS GIGANTES</h2>
+        <img loading="lazy" class="img-fluid d-flex m-auto" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
+      </div>
+      <div class="col-11 col-md-11 h-100 m-auto">
+        <div class="container-fluid">
+          <div class="row d-none d-flex my-5">
+            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right b-bottom p-1 py-1">
+              <div class="d-flex w-100 h-100 card-hover">
+                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/alpes.svg" alt="Logo Alpes">
+              </div>
+            </div>
+            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-bottom p-1 py-1">
+              <div class="d-flex w-100 h-100 card-hover">
+                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/plim.svg" alt="Logo Plim">
+              </div>
+            </div>
+            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right p-1 py-1">
+              <div class="d-flex w-100 h-100 card-hover">
+                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/alpes.svg" alt="Logo Alpes">
+              </div>
+            </div>
+            <div class="col-xl-3 col-6 col-md-3 d-lg-flex p-1 py-1">
+              <div class="d-flex w-100 h-100 card-hover">
+                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/plim.svg" alt="Logo Plim">
+              </div>
+            </div>
+
+            <div class="d-flex m-auto my-5">
+              <div class="py-5">
+                <a class="btn-alpes m-auto">CONHEÇA O GRUPO ALPES</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="">
+        <div class="pt-5">
+          <h2 class="h2-responsive text-center">ALPES NA MÍDIA</h2>
+          <img loading="lazy" class="img-fluid d-flex m-auto" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
+        </div>
+      </div>
+      </div>
+      <div class="col-11 col-md-11 h-100 m-auto">
+        <div class="container-fluid">
+          <div class="row d-none d-flex my-5">
+            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right b-bottom p-1 py-1">
+              <div class="d-flex w-100 h-100 card-hover">
+                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/jp.svg" alt="Logo Alpes">
+              </div>
+            </div>
+            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-bottom p-1 py-1">
+              <div class="d-flex w-100 h-100 card-hover">
+                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/jp.svg" alt="Logo Fama Media Marketing">
+              </div>
+            </div>
+            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right p-1 py-1">
+              <div class="d-flex w-100 h-100 card-hover">
+                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/jp.svg" alt="Logo Plim">
+              </div>
+            </div>
+            <div class="col-xl-3 col-6 col-md-3 d-lg-flex p-1 py-1">
+              <div class="d-flex w-100 h-100 card-hover">
+                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/jp.svg" alt="Logo Midia SOS">
+              </div>
+            </div>
+
+            <div class="d-flex m-auto my-md-5">
+              <div class="py-5">
+                <a class="btn-alpes m-auto">CONHEÇA O GRUPO ALPES</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </section>
+
   <section class="bravery-alpes d-flex justify-content-center  py-5">
     <div class="col-xl-11">
       <div class="container-fluid">
@@ -297,8 +431,8 @@
           <a class="btn-alpes m-auto">DÊ O SEU PRIMEIRO PASSO</a>
         </div>
         <div class="position-text mb-4">
-            <img loading="lazy" class="img-fluid d-flex m-auto" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
-          </div>
+          <img loading="lazy" class="img-fluid d-flex m-auto" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
+        </div>
       </div>
     </div>
     </div>
