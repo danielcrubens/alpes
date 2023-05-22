@@ -7,4 +7,22 @@ footer{
 .bg-blue{
   background: $blue;
 }
+#scrollTop {
+  color: $white;
+  background: $blue;
+  padding: 0.4rem 0;
+  cursor: pointer;
+  width: 30px;
+  position: fixed;
+  top: calc(90% - 0px);
+  opacity: 0;
+  right: -18px;
+  z-index: 9998;
+  font-size: 0.8em;
+  transition: all 0.3s linear;
+  &.active {
+    right: 0px;
+    opacity: 1;
+  }
+}
 }

@@ -13,7 +13,7 @@ if (scrollTopBtn) {
     window.scrollTo(0, 0,)
   })
   window.addEventListener('scroll', function () {
-    if (window.pageYOffset >= 900) {
+    if (window.pageYOffset >= 1200) {
       scrollTopBtn.classList.add('active')
     } else {
       scrollTopBtn.classList.remove('active')
@@ -37,7 +37,6 @@ const redDot = () => {
     cont.style.top = `${pos + 10}px`;
   });
 };
-
 redDot();
 
 

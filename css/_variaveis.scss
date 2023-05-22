@@ -49,7 +49,9 @@ $h2-md: 170%;
 body {
   overflow-x: hidden!important;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 li {
   list-style-type: none;
 }
