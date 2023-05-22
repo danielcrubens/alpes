@@ -162,7 +162,7 @@
 
               <div class="d-flex m-auto my-md-5">
                 <div class="py-5">
-                  <a class="btn-alpes m-auto">CASES DE SUCESSO</a>
+                  <a class="btn-alpes m-auto">CONHEÇA O GRUPO ALPES</a>
                 </div>
               </div>
             </div>
@@ -202,7 +202,7 @@
 
             <div class="d-flex m-auto my-md-5">
               <div class="py-5">
-                <a class="btn-alpes m-auto">CASES DE SUCESSO</a>
+                <a class="btn-alpes m-auto px-md-5">VEJA MAIS</a>
               </div>
             </div>
           </div>
@@ -285,22 +285,22 @@
       <div class="col-11 col-md-11 h-100 m-auto">
         <div class="container-fluid">
           <div class="row d-none d-flex my-5">
-            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right b-bottom p-1 py-1">
+            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right b-bottom p-3 py-1">
               <div class="d-flex w-100 h-100 card-hover">
                 <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/alpes.svg" alt="Logo Alpes">
               </div>
             </div>
-            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-bottom p-1 py-1">
+            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-bottom p-3 py-3">
               <div class="d-flex w-100 h-100 card-hover">
                 <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/plim.svg" alt="Logo Plim">
               </div>
             </div>
-            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right p-1 py-1">
+            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right p-3 py-1">
               <div class="d-flex w-100 h-100 card-hover">
                 <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/alpes.svg" alt="Logo Alpes">
               </div>
             </div>
-            <div class="col-xl-3 col-6 col-md-3 d-lg-flex p-1 py-1">
+            <div class="col-xl-3 col-6 col-md-3 d-lg-flex p-3 py-1">
               <div class="d-flex w-100 h-100 card-hover">
                 <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/plim.svg" alt="Logo Plim">
               </div>
@@ -327,22 +327,22 @@
       <div class="col-11 col-md-11 h-100 m-auto">
         <div class="container-fluid">
           <div class="row d-none d-flex my-5">
-            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right b-bottom p-1 py-1">
+            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right b-bottom p-3 py-1">
               <div class="d-flex w-100 h-100 card-hover">
                 <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/jp.svg" alt="Logo Alpes">
               </div>
             </div>
-            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-bottom p-1 py-1">
+            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-bottom p-3 py-1">
               <div class="d-flex w-100 h-100 card-hover">
                 <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/jp.svg" alt="Logo Fama Media Marketing">
               </div>
             </div>
-            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right p-1 py-1">
+            <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right p-3 py-1">
               <div class="d-flex w-100 h-100 card-hover">
                 <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/jp.svg" alt="Logo Plim">
               </div>
             </div>
-            <div class="col-xl-3 col-6 col-md-3 d-lg-flex p-1 py-1">
+            <div class="col-xl-3 col-6 col-md-3 d-lg-flex p-3 py-1">
               <div class="d-flex w-100 h-100 card-hover">
                 <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/jp.svg" alt="Logo Midia SOS">
               </div>
@@ -360,10 +360,10 @@
 
   </section>
 
-  <section class="bravery-alpes d-flex justify-content-center  py-5">
+  <section class="bravery-alpes d-flex justify-content-center py-5">
     <div class="col-xl-11">
       <div class="container-fluid">
-        <div class="row">
+        <div class="row d-none">
           <div class="col m-auto">
             <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
               <div class="circle-hover rounded-circle overlay zoom">
@@ -415,6 +415,78 @@
             </div>
           </div>
         </div>
+        <div class="row ">
+          <div class="col col m-auto d-none d-md-block">
+            <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
+              <div class="circle-hover rounded-circle overlay zoom">
+                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
+              </div>
+              <div class="card-body text-center">
+                <p>Lorem ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 m-auto d-md-none d-block">
+            <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
+              <div class="circle-hover rounded-circle overlay zoom">
+                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
+              </div>
+              <div class="card-body text-center">
+                <p>Lorem ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 m-auto d-md-none d-block">
+            <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
+              <div class="circle-hover rounded-circle overlay zoom">
+                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/mosquetao.svg" alt="Mosquetão">
+              </div>
+              <div class="card-body text-center">
+                <p>Lorem ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col col m-auto d-none d-md-block">
+            <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
+              <div class="circle-hover rounded-circle overlay zoom">
+              <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/mosquetao.svg" alt="Casa">
+              </div>
+              <div class="card-body text-center">
+                <p>Lorem ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col m-auto">
+            <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
+              <div class="circle-hover rounded-circle overlay zoom">
+              <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
+              </div>
+              <div class="card-body text-center">
+                <p>Lorem ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col m-auto">
+            <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
+              <div class="circle-hover rounded-circle overlay zoom">
+              <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
+              </div>
+              <div class="card-body text-center">
+                <p>Lorem ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col m-auto">
+            <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
+              <div class="circle-hover rounded-circle overlay zoom">
+              <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
+              </div>
+              <div class="card-body text-center">
+                <p>Lorem ipsum</p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="d-flex my-md-5">
           <a class="btn-alpes m-auto">CONHEÇA NOSSOS SERVIÇOS</a>
         </div>
@@ -422,12 +494,12 @@
     </div>
   </section>
 
-  <section class="bg-adventure d-flex justify-content-center  m-auto">
-    <div class="col-10 mt-4">
-      <div class="container-fluid mt-5">
+  <section class="bg-adventure d-flex justify-content-center m-auto">
+    <div class="col-xl-10 col-12 mt-4">
+      <div class="container-md-fluid mt-5">
         <h2 class="text-center h2-responsive">E ESSE É O PRIMEIRO PASSO DA AVENTURA</h2>
         <img loading="lazy" class="img-fluid d-flex m-auto" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
-        <div class="d-flex my-md-5">
+        <div class="d-flex mt-5">
           <a class="btn-alpes m-auto">DÊ O SEU PRIMEIRO PASSO</a>
         </div>
         <div class="position-text mb-4">

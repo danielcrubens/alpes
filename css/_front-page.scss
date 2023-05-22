@@ -200,6 +200,10 @@ main {
     transform: translateY(20px);
   }
   .bg-adventure {
+    @include sm{
+      background-size: cover;
+      background-position: center;
+    }
     position: relative;
     background-image: url(../assets/imagens/bg-adventure.webp);
     background-position: center 70%;
