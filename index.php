@@ -1,5 +1,6 @@
 <?php get_header(); ?>
-<main>
+<main class="front-page">
+
   <section class="d-flex justify-content-center m-auto align-items-center mt-5">
     <img loading="lazy" class="img-fluid position-img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/imagens/logo-alpes.webp" alt="Logo Alpes">
   </section>
@@ -449,7 +450,7 @@
           <div class="col col m-auto d-none d-md-block">
             <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
               <div class="circle-hover rounded-circle overlay zoom">
-              <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/mosquetao.svg" alt="Casa">
+                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/mosquetao.svg" alt="Casa">
               </div>
               <div class="card-body text-center">
                 <p>Lorem ipsum</p>
@@ -459,7 +460,7 @@
           <div class="col m-auto">
             <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
               <div class="circle-hover rounded-circle overlay zoom">
-              <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
+                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
               </div>
               <div class="card-body text-center">
                 <p>Lorem ipsum</p>
@@ -469,7 +470,7 @@
           <div class="col m-auto">
             <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
               <div class="circle-hover rounded-circle overlay zoom">
-              <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
+                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
               </div>
               <div class="card-body text-center">
                 <p>Lorem ipsum</p>
@@ -479,7 +480,7 @@
           <div class="col m-auto">
             <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
               <div class="circle-hover rounded-circle overlay zoom">
-              <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
+                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
               </div>
               <div class="card-body text-center">
                 <p>Lorem ipsum</p>

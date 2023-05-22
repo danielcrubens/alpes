@@ -9,6 +9,7 @@
   <?php wp_site_icon(); ?>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <link rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/css/bootstrap.min.css">
@@ -48,8 +49,8 @@
               </li>
             </ul>
           </div>
-<div class="teste">
-          <a class="img-fluid"><?php the_custom_logo(); ?></a>
+          <div class="logo">
+            <a class="img-fluid"><?php the_custom_logo(); ?></a>
           </div>
 
           <div class="d-none d-lg-block">
@@ -102,12 +103,12 @@
                 </a>
               </li>
               <li class="pb-3">
-              <a href="<?php echo esc_url(home_url('/')); ?>noticias">notícias
+                <a href="<?php echo esc_url(home_url('/')); ?>noticias">notícias
                   <span class="hover-line"></span>
                 </a>
               </li>
               <li class="pb-3">
-              <a href="<?php echo esc_url(home_url('/')); ?>contatos">contatos
+                <a href="<?php echo esc_url(home_url('/')); ?>contatos">contatos
                   <span class="hover-line"></span>
                 </a>
               </li>

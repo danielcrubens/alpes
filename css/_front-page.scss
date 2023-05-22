@@ -1,4 +1,4 @@
-main {
+.front-page {
   @include sm{
     overflow-x: hidden!important;
   }
@@ -6,30 +6,6 @@ main {
   h2 {
     color: $white;
     text-transform: uppercase;
-  }
-  .bg-alpes {
-    @include sm {
-      background-size: cover;
-    }
-    background-image: url(../assets//imagens/bg-alpes.webp);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
-    h1 {
-      color: $white;
-    }
-  }
-  .position-img {
-    @include sm {
-      right: 0;
-    }
-    position: absolute;
-    top: 7rem;
-    width: 13rem;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
   }
   .come-alpes {
     background-color: transparent;
@@ -63,7 +39,7 @@ main {
       bottom: 0;
       /* opacity: 0.5; */
       z-index: -1;
-      background-image: url(../assets/imagens/nuvem-top.webp);
+      background-image: url(../assets/imagens/cloud-top.webp);
       background-attachment: fixed;
       background-position: -25rem 0rem;
       background-size: auto;
