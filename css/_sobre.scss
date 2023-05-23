@@ -1,6 +1,6 @@
 .about-alpes {
   position: relative;
- .teste{
+ .bg-cloud{
   position: relative;
   &::after {
     position: absolute;
@@ -9,30 +9,24 @@
     height: 22rem;
     bottom: -22rem;
     left: -15rem;
-  /*   opacity: 0.5; */
-  /*   z-index: -1; */
-    background-image: url('https://cdn.discordapp.com/attachments/841400428134662155/1110349822654947388/oi.png');
+    background-image: url(../assets//imagens/bg-cloud.webp);
     background-repeat: no-repeat;
     background-size: 45%;
-   /*  background-color: red; */
-/*     background-attachment: fixed;
- */  /*     background-position: -27rem -29rem;  */
-  
-  
+    @include sm{
+      background-image: none;
+    }
   }
-
-  
  }
 
   p {
     color: $text-dark-blue;
     font-family: "Open Sans", sans-serif;
   }
-  .bg-cloud {
+  .bg-cloud-overlay {
     display: block;
 
     position: relative;
-    background-image: url(https://cdn.discordapp.com/attachments/969661217142620203/1110294535721992192/kill.png);
+    background-image: url(../assets/imagens/overlay-right.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
