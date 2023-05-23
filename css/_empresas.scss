@@ -1,0 +1,63 @@
+.companies-alpes {
+  .bg-cloud {
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 80%;
+      height: 12rem;
+      bottom: -12rem;
+      left: -15rem;
+      background-image: url(../assets//imagens/bg-cloud.webp);
+      background-repeat: no-repeat;
+      background-size: 45%;
+      @include sm {
+        background-image: none;
+      }
+      @include md {
+        background-image: none;
+      }
+      @include xl3 {
+        width: 66%;
+      }
+    }
+  }
+  h3,
+  p {
+    color: $text-dark-blue;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  .last {
+    font-weight: 400;
+  }
+  .bg-cloud-left {
+    background-image: url(../assets/imagens/cloud-top.webp);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: -28rem 48rem;
+    @include xl3 {
+      background-position: -28rem 62rem;
+    }
+    @include md {
+      background-image: none;
+    }
+    @include sm {
+      background-image: none;
+    }
+  }
+  .overlay-bottom {
+    background-image: url(../assets/imagens/overlay-right.webp);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    @include sm {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+  }
+  hr{
+    background: #292E4A;
+  }
+}
