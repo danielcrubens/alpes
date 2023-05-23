@@ -1,0 +1,60 @@
+.contacts-alpes{
+h2{
+  font-family: "Open Sans", sans-serif;
+font-weight: 700;
+color: $text-dark-blue;
+}
+p{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: $text-dark-blue;
+}
+ .bg-cloud {
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 12rem;
+    bottom: -12rem;
+    left: -15rem;
+    background-image: url(../assets//imagens/bg-cloud.webp);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    @include sm {
+      background-image: none;
+    }
+    @include md {
+      background-image: none;
+    }
+    @include xl3 {
+      width: 66%;
+    }
+  }
+}
+a{
+  color:  $text-dark-blue;
+}
+i{
+  font-size: 2.5rem;
+}
+.overlay-bottom {
+  background-image: url(../assets/imagens/overlay-right.webp);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  @include sm {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+.dani{
+  background-image: url('https://cdn.discordapp.com/attachments/841400428134662155/1110710007206531122/image_16.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 8rem;
+}
+
+} 
+

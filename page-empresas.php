@@ -17,7 +17,7 @@
     </div>
   </section>
 
-  <section class="white bg-cloud-overlay">
+  <section class="white-dark bg-cloud-overlay">
     <div class="bg-cloud "></div>
     <div class="col-xl-12 py-5 bg-cloud-left">
       <div class="container-fluid p-md-0 my-md-5">

@@ -5,6 +5,7 @@ $white: #ffff;
 $blue:#2C4FFF;
 $text-dark-blue:#0C1131FF;
 $border:#e6e6e6;
+$white-dark:#F5F5F5;
 $h1-sm: 150%;
 $h1-md: 200%;
 $h2-sm: 145%;
@@ -117,4 +118,7 @@ body,
 }
 .w-img {
   width: 5rem;
+}
+.white-dark{
+  background: $white-dark;
 }

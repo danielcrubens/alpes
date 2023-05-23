@@ -17,8 +17,8 @@
     </div>
   </section>
 
-  <section class="white bg-cloud-overlay">
-  <div class="bg-cloud "></div>
+  <section class="white-dark bg-cloud-overlay">
+    <div class="bg-cloud "></div>
     <div class="col-xl-10 col-md-10 d-flex justify-content-center m-auto align-items-center">
       <div class="container-fluid  my-5">
         <div class="py-5">
