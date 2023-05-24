@@ -37,6 +37,10 @@ a{
 }
 i{
   font-size: 2.5rem;
+  transition: .5s;
+  &:hover{
+    transform: translateY(5px);
+  }
 }
 .overlay-bottom {
   background-image: url(../assets/imagens/overlay-right.webp);
@@ -49,12 +53,90 @@ i{
     background-position: bottom;
   }
 }
-.dani{
-  background-image: url('https://cdn.discordapp.com/attachments/841400428134662155/1110710007206531122/image_16.png');
+.bg-sole{
+  background-image: url(../assets/imagens/bg-sole.webp);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center 8rem;
+  @include sm{
+    background-image: none;
+  }
+  
 }
+p,
+  label {
+    margin: 0;
+  }
+  label,
+  input ,
+  textarea {
+    width: 100%;
+    resize: none;
+  }
+  input ,
+  textarea  {
+    accent-color: $blue;
+    background-color: $white;
+    color: $black;
+    padding: 0.7rem;
+    border: 0;
+    outline: none;
+    font-weight: 400;
+    transition: 0.5s;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: $text-dark-blue;
+    &:focus {
+      box-shadow: 0.063rem 0.313rem 1.125rem 0.063rem rgba(0, 0, 0, 0.13);
+    }
+  }
+  textarea {
+    height: 15rem;
+  }
+  input[type="submit"] {
+    width: auto;
+    background: $blue;
+    display: inline-block;
+    margin: 0;
+    text-transform: none;
+    word-wrap: break-word;
+    white-space: normal;
+    border: 0;
+    padding: 0.65rem 1.55rem;
+    font-size: 16px;
+    @include sm{
+      font-size: 14px;
+    }
+    color: $white!important;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.5;
+   transition: all 1s ease;
+    outline: none;
+    &:hover{
+      filter: brightness(.8);
+    }
+  }
+  span ,div{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+  }
+  .wpcf7-spinner{
+    display: block!important;
+  }
+  .first-step{
+    font-weight: 400!important;
+    font-family: "Michroma", sans-serif;
+    span{
+      font-family: "Michroma", sans-serif;
 
+    }
+
+  }
+  .mt-10{
+    @include sm{
+      margin-top: 0;
+    }
+  }
 } 
-
