@@ -26,21 +26,21 @@
             <h2 class="h2-responsive">CONTATO</h2>
             <p>terdum sollicitudin erat. Nunc a ligula erat. Aliquam dolor arcu, posuere ac sapien sed, suscipit vehicula mi. Quisque eleifend diam sit amet enim dignissim eleifend.
               terdum sollicitudin erat. Nunc a ligula erat. Aliquam dolor arcu, posuere ac sapien sed, suscipit vehicula mi. Quisque eleifend diam sit amet enim dignissim eleifend</p>
-              <div class=" mt-4">
-            <a class="mr-3" href="http://" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-linkedin "></i>
-            </a>
-            <a class="mr-3" href="http://" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-facebook-square"></i>
-            </a>
-            <a class="mr-3" href="http://" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-twitter-square"></i>
-            </a>
+            <div class=" mt-4">
+              <a class="mr-3" href="http://" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin "></i>
+              </a>
+              <a class="mr-3" href="http://" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+              <a class="mr-3" href="http://" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter-square"></i>
+              </a>
 
-            <a class="mr-3" href="http://" target="_blank" rel="noopener noreferrer">
+              <a class="mr-3" href="http://" target="_blank" rel="noopener noreferrer">
 
-              <i class="fab fa-whatsapp-square"></i>
-            </a>
+                <i class="fab fa-whatsapp-square"></i>
+              </a>
             </div>
 
           </div>

@@ -1,0 +1,128 @@
+.news-alpes{
+  h2,p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: $text-dark-blue;
+  }
+  .bg-cloud {
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 80%;
+      height: 12rem;
+      bottom: -12rem;
+      left: -15rem;
+      background-image: url(../assets//imagens/bg-cloud.webp);
+      background-repeat: no-repeat;
+      background-size: 45%;
+      @include sm {
+        background-image: none;
+      }
+      @include md {
+        background-image: none;
+      }
+      @include xl3 {
+        width: 66%;
+      }
+    }
+  }
+  .social-alpes{
+    a{
+      color:  $text-dark-blue;
+    }
+    i{
+      font-size: 2.5rem;
+      transition: .5s;
+      &:hover{
+        transform: translateY(5px);
+      }
+    }
+  }
+  .news-form{
+    p,
+  label {
+    margin: 0;
+  }
+  label,
+  input ,
+  textarea {
+    width: 100%;
+    resize: none;
+  }
+  input ,
+  textarea  {
+    accent-color: $blue;
+    background-color: $white;
+    color: $black;
+    padding: 0.7rem;
+    border: 0;
+    outline: none;
+    font-weight: 400;
+    transition: 0.5s;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: $text-dark-blue;
+    &:focus {
+      box-shadow: 0.063rem 0.313rem 1.125rem 0.063rem rgba(0, 0, 0, 0.13);
+    }
+  }
+  textarea {
+    height: 15rem;
+  }
+  input[type="submit"] {
+    width: auto;
+    background: $blue;
+    display: inline-block;
+    margin: 0;
+    text-transform: none;
+    word-wrap: break-word;
+    white-space: normal;
+    border: 0;
+    padding: 0.65rem 1.55rem;
+    font-size: 16px;
+    @include sm{
+      font-size: 14px;
+    }
+    color: $white!important;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.5;
+   transition: all 1s ease;
+    outline: none;
+    &:hover{
+      filter: brightness(.8);
+    }
+  }
+  span ,div{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+  }
+  .wpcf7-spinner{
+    display: block!important;
+  }
+  }
+  .sidebar{
+    height: 0vh;
+    h2{
+      font-weight: 700;
+      &::before{
+        content: "";
+        display: block;
+        width: 28%;
+        background: $blue;
+        margin: 0 ;
+        height: 4px;
+        margin-bottom: 1rem;
+
+      }
+    }
+  }
+  .mt-10{
+    @include sm{
+      margin-top: 0;
+    }
+  }
+  
+}

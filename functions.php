@@ -28,12 +28,46 @@ if (!function_exists('_wp_render_title_tag')) {
 
 // Definir as miniaturas dos posts
 add_theme_support('post-thumbnails');
-set_post_thumbnail_size(1280, 720, true);
+set_post_thumbnail_size(1024, 460, true);
 
 // Definir o tamanho o resumo
 add_filter('excerpt_length', function ($length) {
-    return 10;
+    return 50;
 });
+
+
+function create_post_type()
+{
+    register_post_type(
+        'banners',
+        // Definir as opções
+        array(
+            'labels' => array(
+                'name' => __('Banners'),
+                'singular_name' => __('Banners')
+            ),
+            'supports' => array(
+                'title', 'editor', 'thumbnail'
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'menu_icon' => 'dashicons-images-alt2',
+            'rewrite' => array('slug' => 'banners'),
+        )
+    );
+}
+//Iniciar o tipo de post
+add_action('init', 'create_post_type');
+
+register_sidebar(
+    array(
+        'name' => 'Barra lateral Alpes',
+        'id' => 'sidebar',
+        'before_widget' => '<section class="card_category border-0 my-4 red z-depth-1">',
+        'after_widget' => '</section>',
+       
+    )
+);
 
 //Limita os caracteres do titulo no post inicial
 function title_limite($len = 55, $post_id = null)
