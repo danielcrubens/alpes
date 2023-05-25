@@ -1,5 +1,5 @@
-.news-alpes{
-  p{
+.news-single-alpes{
+  p, li, ul, a{
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     color: $text-dark-blue;
@@ -103,6 +103,7 @@
     display: block!important;
   }
   }
+
   .mt-10{
     @include sm{
       margin-top: 0;

@@ -1,52 +1,50 @@
 <?php get_header(); ?>
+<section class="news-single-alpes">
 
-<div class=" view view-single mt-md-5 mt-mobile">
-	<?php if (has_post_thumbnail()) the_post_thumbnail('', array('class' => 'img-fluid w-100')); ?>
-	<div class="mask  flex-center rgba-black-light">
-		<div class="container-fluid">
-			<div class="row align-items-end">
-				<div class="single-blog ">
-					<div class="list-categories">
-						<?php the_category(); ?>
-					</div>
-				</div>
-			</div>
-			<h1 class=" h1-responsive font-weight-bold white-text text-left py-3 "><?php the_title(); ?></h1>
-		</div>
-	</div>
+<section class="d-flex justify-content-center m-auto align-items-center mt-5">
+    <img loading="lazy" class="img-fluid position-img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/imagens/logo-alpes.webp" alt="Logo Alpes">
+  </section>
 
-</div>
-</div>
-<div class="container-fluid pl-lg-5 pr-lg-5 py-5 ">
-	<section id="single-blog" class="text-center mobile">
-		<div class="row">
-			<div class="col-md-12 col-lg-8">
-				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-						<div class="blog-post  text-justify ">
-							<p class="text-muted">Por: <?php echo get_avatar(get_the_author_meta('ID'), 35); ?> <i class="fas fa-calendar-alt"></i> <?php echo get_the_date(); ?><i class="far fa-clock ml-2"></i> <?php echo reading_time($post->ID); ?></p>
+  <section class=" bg-alpes d-flex justify-content-center m-auto align-items-center">
+    <div class="col-xl-11">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <h1 class="text-center h1-responsive">NOTÍCIAS</h1>
+        </div>
+      </div>
+    </div>
+  </section>
 
-							<div class="content-single"><?php the_content(); ?></div>
-							<div class="like-desllike">
-								<div class="py-4 ">
-									<h5>Compartilhe em suas redes:</h5>
-									<?php echo do_shortcode('[sharethis-inline-buttons]' ); ?>
+	<section class="white-dark bg-sole">
+    <div class="bg-cloud "></div>
+    <div class="col-xl-11 col-md-11 d-flex justify-content-between m-auto align-items-center">
+      <div class="container-fluid mt-10">
+        <div class="row mt-5 mt-md-0 d-flex justify-content-between">
+          <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+              <div class="col-xl-7 col-md-7 mt-5 custom-post">
+							<h2 class="h2-responsive"><?php title_limite(); ?></h2>
 
-								</div>
-								<h5 class="h5-responsive "><?php echo traducaoTexto(array('Estes conteúdo foi útil pra você?', 'Was this content helpful to you?', '¿Le ha resultado útil este contenido?')); ?></h5>
-								<?php echo do_shortcode('[posts_like_dislike ]'); ?>
+                  <?php the_post_thumbnail('post-thumbnail', array('class' => 'img-fluid')); ?>
+                <div class="d-flex justify-content-end align-items-center mt-3">
+                  <span class="date-post"> <?php echo get_the_date('d/m/y'); ?></span>
+                </div>
+                <p class=""><?php the_content(); ?></p>
+              </div>
+							<div class="col-xl-4 col-md-5 mt-5 mt-md-5 sidebar-single">
 
+                <?php get_sidebar(); ?>
 							</div>
-						</div>
-
-					<?php endwhile; ?>
-				<?php else : get_404_template();
-				endif; ?>
-			</div>
-
-			<?php get_sidebar(); ?>
-		</div>
-	</section>
-</div>
-
+          <?php endwhile;
+          endif; ?>
+        </div>
+      </div>
+    </div>
+    <div class="my-md-5 overlay-bottom">
+      <div class="  d-flex m-auto py-5">
+        <img loading="lazy" class="img-fluid d-flex m-auto w-img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
+      </div>
+    </div>
+  </section>
+</section>
 
 <?php get_footer(); ?>
