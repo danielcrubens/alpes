@@ -15,7 +15,7 @@
         </div>
         <div class="d-flex flex-column justify-content-center align-items-center m-auto pt-5 pb-5">
           <p class="white-text m-0 "> <span class="mx-2">FACEBOOK </span>| <span class="mx-2">INSTAGRAM </span>| <span class="mx-2">LINKEDIN</span></p>
-          <p class="white-text m-0 text-center mt-4 text-md-left">TODOS DIREITOS RESERVADOS © 2022 | CNPJ: 38.488.871/0001.79</p>
+          <p class="white-text m-0 text-center mt-4 text-lg-left">TODOS DIREITOS RESERVADOS © 2022 | CNPJ: 38.488.871/0001.79</p>
         </div>
       </div>
     </div>

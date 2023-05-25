@@ -31,7 +31,6 @@
                 <p class=""><?php the_content(); ?></p>
               </div>
 							<div class="col-xl-4 col-md-5 mt-5 mt-md-5 sidebar-single">
-
                 <?php get_sidebar(); ?>
 							</div>
           <?php endwhile;
@@ -39,6 +38,7 @@
         </div>
       </div>
     </div>
+		
     <div class="my-md-5 overlay-bottom">
       <div class="  d-flex m-auto py-5">
         <img loading="lazy" class="img-fluid d-flex m-auto w-img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
