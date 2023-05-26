@@ -32,7 +32,7 @@ set_post_thumbnail_size(1024, 460, true);
 
 // Definir o tamanho o resumo
 add_filter('excerpt_length', function ($length) {
-    return 50;
+    return 25;
 });
 
 
