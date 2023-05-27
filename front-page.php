@@ -1,7 +1,8 @@
 <?php
 /*Template Name: Home */
 ?>
-<?php get_header(); ?><main class="front-page">
+<?php get_header(); ?>
+<main class="front-page">
 
   <section class="d-flex justify-content-center m-auto align-items-center mt-5">
     <img loading="lazy" class="img-fluid position-img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/imagens/logo-alpes.webp" alt="Logo Alpes">
@@ -14,6 +15,15 @@
           <h1 class="text-center h1-responsive">Com a gente você já está no topo</h1>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="d-flex justify-content-center m-auto align-items-center mt-5">
+    <div class=" position-scroll ">
+      <span class="mouse">
+        <span class="move"></span>
+      </span>
+      <p class="text-center white-text"><small>scroll</small></p>
     </div>
   </section>
 
