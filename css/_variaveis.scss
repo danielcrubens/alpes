@@ -101,17 +101,47 @@ body,
 
 .bg-alpes {
   @include sm {
-    background-size: cover;
+    background-size: cover!important;
+    background-attachment: fixed;
   }
   background-image: url(../assets//imagens/bg-alpes.webp);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: top;
   height: 100vh;
   h1 {
     color: $white;
   }
 }
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-out {
+  animation: fadeOut 0.7s ease forwards;
+}
+
+.fade-in {
+  animation: fadeIn 0.9s ease forwards;
+}
+
+#scroll-heading {
+  opacity: 1;
+  transition: opacity 0.7s ease;
+}
+
+
+
+
+
+
+
 .position-img {
   @include sm {
     right: 0;
