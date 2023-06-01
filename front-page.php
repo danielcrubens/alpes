@@ -48,22 +48,22 @@
             </div>
             <div class="row d-none d-lg-inline-flex my-5 scroll-down">
               <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right b-bottom p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
+                <div class="d-flex w-100 h-100 card-hover dan">
                   <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/joie.svg" alt="Logo Joie">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right b-bottom p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
+                <div class="d-flex w-100 h-100 card-hover dan">
                   <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/helbor.svg" alt="Logo Helbor">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right b-bottom p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
+                <div class="d-flex w-100 h-100 card-hover dan">
                   <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/ervik.svg" alt="Logo Ervik">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-bottom p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
+                <div class="d-flex w-100 h-100 card-hover dan">
                   <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/hardrock.svg" alt="Logo Hard Rock">
                 </div>
               </div>
@@ -73,17 +73,17 @@
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-none d-lg-flex b-right p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
+                <div class="d-flex w-100 h-100 card-hover dan">
                   <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/giovanna.svg" alt="Logo giovanna">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-none d-lg-flex b-right p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
+                <div class="d-flex w-100 h-100 card-hover dan">
                   <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/joie.svg" alt="Logo Joie">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-none d-lg-flex p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
+                <div class="d-flex w-100 h-100 card-hover dan">
                   <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/helbor.svg" alt="Logo Helbor">
                 </div>
               </div>
@@ -525,6 +525,7 @@
     </div>
   </section>
 </main>
+
 
 
 <?php

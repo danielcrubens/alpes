@@ -38,14 +38,45 @@ $(document).ready(function () {
       scrollHeading.classList.remove('fade-in');
     }
   });
-  
-  
-  
-
-
-
-
 })
+ // Obtém uma lista de todos os elementos de imagem
+ var images = document.querySelectorAll('.dan img');
+
+ // Cria um array com os URLs das imagens
+ var imageUrls = [];
+ images.forEach(function(image) {
+   imageUrls.push(image.src);
+ });
+
+ // Inicia o temporizador para atualizar as imagens a cada 5 segundos
+ setInterval(function() {
+   // Embaralha o array de URLs das imagens
+   var shuffledImageUrls = shuffleArray(imageUrls);
+
+   // Atualiza as imagens com os URLs embaralhados
+   images.forEach(function(image, index) {
+     image.src = shuffledImageUrls[index];
+   });
+ }, 6000); // 5000 milissegundos = 5 segundos
+
+ // Função para embaralhar um array
+ function shuffleArray(array) {
+   var currentIndex = array.length, temporaryValue, randomIndex;
+
+   // Enquanto ainda houver elementos para embaralhar
+   while (0 !== currentIndex) {
+     // Seleciona um elemento restante
+     randomIndex = Math.floor(Math.random() * currentIndex);
+     currentIndex -= 1;
+
+     // E troca com o elemento atual
+     temporaryValue = array[currentIndex];
+     array[currentIndex] = array[randomIndex];
+     array[randomIndex] = temporaryValue;
+   }
+
+   return array;
+ }
 $(document).ready(function () {
 
   const ScrollDown = ScrollReveal({

@@ -32,10 +32,10 @@
       }
       content: "";
       display: block;
-      position: fixed;
+      position: absolute;
       left: 0;
       right: 0;
-      top: 0;
+      top: -9rem;
       bottom: 0;
       /* opacity: 0.5; */
       z-index: -1;
@@ -131,7 +131,6 @@
     background-image: url(../assets/imagens/bg-mountain.webp);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     height: 100vh;
   }
   .bravery-alpes {
@@ -185,7 +184,6 @@
     background-position: center 70%;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     height: 100vh;
     .position-text {
       position: absolute;
