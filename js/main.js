@@ -39,44 +39,61 @@ $(document).ready(function () {
     }
   });
 })
- // Obtém uma lista de todos os elementos de imagem
- var images = document.querySelectorAll('.dan img');
+// Obtém uma lista de todos os elementos de imagem
+const images = document.querySelectorAll('.dan img');
 
- // Cria um array com os URLs das imagens
- var imageUrls = [];
- images.forEach(function(image) {
-   imageUrls.push(image.src);
- });
+// Cria um array com os URLs das imagens
+const imageUrls = Array.from(images, (image) => image.src);
 
- // Inicia o temporizador para atualizar as imagens a cada 5 segundos
- setInterval(function() {
-   // Embaralha o array de URLs das imagens
-   var shuffledImageUrls = shuffleArray(imageUrls);
+// Inicia o temporizador para atualizar as imagens a cada 5 segundos
+setInterval(() => {
+  // Embaralha o array de URLs das imagens
+  const shuffledImageUrls = shuffleArray(imageUrls);
 
-   // Atualiza as imagens com os URLs embaralhados
-   images.forEach(function(image, index) {
-     image.src = shuffledImageUrls[index];
-   });
- }, 6000); // 5000 milissegundos = 5 segundos
+  // Atualiza as imagens com os URLs embaralhados
+  images.forEach((image, index) => {
+    image.src = shuffledImageUrls[index];
+  });
+}, 5000);
 
- // Função para embaralhar um array
- function shuffleArray(array) {
-   var currentIndex = array.length, temporaryValue, randomIndex;
+// Função para embaralhar um array
+function shuffleArray(array) {
+  let currentIndex = array.length;
+  let temporaryValue, randomIndex;
 
-   // Enquanto ainda houver elementos para embaralhar
-   while (0 !== currentIndex) {
-     // Seleciona um elemento restante
-     randomIndex = Math.floor(Math.random() * currentIndex);
-     currentIndex -= 1;
+  // Enquanto ainda houver elementos para embaralhar
+  while (0 !== currentIndex) {
+    // Seleciona um elemento restante
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
 
-     // E troca com o elemento atual
-     temporaryValue = array[currentIndex];
-     array[currentIndex] = array[randomIndex];
-     array[randomIndex] = temporaryValue;
-   }
+    // E troca com o elemento atual
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
 
-   return array;
- }
+  return array;
+}
+
+const toggleButton = document.querySelector('#toggleButton');
+const toggleIcon = document.querySelector('#toggleIcon');
+const gridContainer = document.querySelector('#gridContainer');
+const grid1 = document.querySelector('#masonry1');
+const grid2 = document.querySelector('#masonry2');
+
+toggleButton.addEventListener('click', () => {
+  const isGrid1Hidden = grid1.classList.contains('hidden');
+
+  gridContainer.style.height = isGrid1Hidden ? '' : gridContainer.offsetHeight + 'px';
+  grid1.classList.toggle('hidden');
+  grid1.classList.toggle('visible');
+  grid2.classList.toggle('hidden');
+  grid2.classList.toggle('visible');
+  toggleIcon.classList.toggle('fa-times', !isGrid1Hidden);
+  toggleIcon.classList.toggle('fa-hand-point-up', isGrid1Hidden);
+});
+
 $(document).ready(function () {
 
   const ScrollDown = ScrollReveal({

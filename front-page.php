@@ -17,9 +17,6 @@
     </div>
   </section>
 
-  <!--   <div  class="heroImg">
-    <h1>cbhdbshcbhdsbchbsd</h1>
-  </div> -->
   <!--  <section class="d-flex justify-content-center m-auto align-items-center mt-5">
     <div class=" position-scroll ">
       <span class="mouse">
@@ -40,7 +37,7 @@
           </div>
         </div>
 
-        <div class="col-xl-11 col-md-11 h-100 m-auto">
+        <div class="col-xl-11 pt-md-5 col-md-11 h-100 m-auto">
           <div class="container-fluid pt-md-5 ">
             <div class="py-md-5 scroll-down">
               <h2 class="h2-responsive text-center ">VENHA CAMINHAR COM OS GIGANTES</h2>
@@ -135,14 +132,84 @@
               <a class="btn-alpes m-auto"> CONHEÇA NOSSOS CLIENTES</a>
             </div>
 
-            <div class="py-5 mt-10 scroll-down">
+            <div class="pt-5 mt-10 scroll-down">
               <h2 class="h2-responsive text-center">CASES</h2>
               <img loading="lazy" class="img-fluid d-flex m-auto scroll-down" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
             </div>
-            <img loading="lazy" class="img-fluid d-md-flex m-auto d-md-block d-none scroll-down" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/imagens/grid-cases.webp" alt="Grid Cases">
+
+            <section class="content-masonry d-md-block d-none">
+              <div class=" container-button">
+                <button id="toggleButton">
+                  <i id="toggleIcon" class="fas fa-hand-point-up"></i>
+                </button>
+              </div>
+              <div class="col-11 m-auto red">
+
+                <div class="container-fluid h-100 d-flex justify-content-center align-items-center">
+                  <div id="gridContainer">
+
+                    <div id="masonry1" class="grid-masonry visible">
+                      <div class="container-fluid">
+                        <div class='front-container'>
+                          <div class='small'>
+                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114317528269852764/image_5.png'>
+                          </div>
+                          <div class='small'>
+                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318043548500048/image_6.png'>
+                          </div>
+                          <div class='small'>
+                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318080672288798/image_8.png'>
+                          </div>
+                          <div class='large'>
+                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318044248948746/Group_3.png'>
+                          </div>
+                          <div class='medium'>
+                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318043791753296/image_9.png'>
+                          </div>
+                          <div class='large'>
+                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318044018249838/image_7.png'>
+                          </div>
+                          <div class='small'>
+                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318050259374090/image_11.png'>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="masonry2" class="grid-masonry hidden">
+                      <div class="container-fluid">
+                        <div class='front-container'>
+                          <div class='small'>
+                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114317528269852764/image_5.png'>
+                          </div>
+                          <div class='small'>
+                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318043548500048/image_6.png'>
+                          </div>
+                          <div class='small'>
+                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318080672288798/image_8.png'>
+                          </div>
+                          <div class='large'>
+                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318044248948746/Group_3.png'>
+                          </div>
+                          <div class='medium'>
+                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318043791753296/image_9.png'>
+                          </div>
+                          <div class='large'>
+                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318044018249838/image_7.png'>
+                          </div>
+                          <div class='small'>
+                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318050259374090/image_11.png'>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
 
           </div>
-          <div class="d-flex my-md-5">
+          <div class="d-flex">
             <a class="btn-alpes m-auto">CASES DE SUCESSO</a>
           </div>
           <div class="py-5 mt-10">
@@ -526,107 +593,7 @@
     </div>
   </section>
 
-  <section class="d ">
-    
-    <div class="col-11 m-auto">
-    <div class=" da py-5 h-100 d-flex justify-content-center align-items-center">
-        <button id="toggleButton"  >
-          <i id="toggleIcon" class="fas fa-hand-point-up"></i>
-        </button>
-        </div>
-      <div class="container-fluid h-100 d-flex justify-content-center align-items-center">
-        <div id="gridContainer">
-        
-          <div id="masonry1" class="grid-masonry visible">
-            <div class="container-fluid  py-5">
-              <div class='front-container'>
-                <div class='small'>
-                  <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114317528269852764/image_5.png'>
-                </div>
-                <div class='small'>
-                  <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318043548500048/image_6.png'>
-                </div>
-                <div class='small'>
-                  <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318080672288798/image_8.png'>
-                </div>
-                <div class='large'>
-                  <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318044248948746/Group_3.png'>
-                </div>
-                <div class='medium'>
-                  <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318043791753296/image_9.png'>
-                </div>
-                <div class='large'>
-                  <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318044018249838/image_7.png'>
-                </div>
-                <div class='small'>
-                  <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318050259374090/image_11.png'>
-                </div>
-
-              </div>
-
-            </div>
-          </div>
-
-          <div id="masonry2" class="grid-masonry hidden">
-            <div class="container-fluid  py-5">
-            <div class='front-container'>
-                <div class='small'>
-                  <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114317528269852764/image_5.png'>
-                </div>
-                <div class='small'>
-                  <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318043548500048/image_6.png'>
-                </div>
-                <div class='small'>
-                  <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318080672288798/image_8.png'>
-                </div>
-                <div class='large'>
-                  <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318044248948746/Group_3.png'>
-                </div>
-                <div class='medium'>
-                  <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318043791753296/image_9.png'>
-                </div>
-                <div class='large'>
-                  <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318044018249838/image_7.png'>
-                </div>
-                <div class='small'>
-                  <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318050259374090/image_11.png'>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
 </main>
-<script>
-const toggleButton = document.querySelector('#toggleButton');
-const toggleIcon = document.querySelector('#toggleIcon');
-const gridContainer = document.querySelector('#gridContainer');
-const grid1 = document.querySelector('#masonry1');
-const grid2 = document.querySelector('#masonry2');
-
-toggleButton.addEventListener('click', () => {
-  const isGrid1Hidden = grid1.classList.contains('hidden');
-
-  gridContainer.style.height = isGrid1Hidden ? '' : gridContainer.offsetHeight + 'px';
-  grid1.classList.toggle('hidden');
-  grid1.classList.toggle('visible');
-  grid2.classList.toggle('hidden');
-  grid2.classList.toggle('visible');
-  toggleIcon.classList.toggle('fa-times', !isGrid1Hidden);
-  toggleIcon.classList.toggle('fa-hand-point-up', isGrid1Hidden);
-
-
-});
-
-
-</script>
-
 
 <?php
 get_footer();
