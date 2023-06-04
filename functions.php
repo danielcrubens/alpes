@@ -29,35 +29,14 @@ if (!function_exists('_wp_render_title_tag')) {
 // Definir as miniaturas dos posts
 add_theme_support('post-thumbnails');
 set_post_thumbnail_size(1024, 460, true);
+add_image_size( 'mini-thumb', 190, 90,true );
+
 
 // Definir o tamanho o resumo
 add_filter('excerpt_length', function ($length) {
     return 25;
 });
 
-
-function create_post_type()
-{
-    register_post_type(
-        'banners',
-        // Definir as opções
-        array(
-            'labels' => array(
-                'name' => __('Banners'),
-                'singular_name' => __('Banners')
-            ),
-            'supports' => array(
-                'title', 'editor', 'thumbnail'
-            ),
-            'public' => true,
-            'has_archive' => true,
-            'menu_icon' => 'dashicons-images-alt2',
-            'rewrite' => array('slug' => 'banners'),
-        )
-    );
-}
-//Iniciar o tipo de post
-add_action('init', 'create_post_type');
 
 register_sidebar(
     array(
@@ -152,6 +131,67 @@ add_filter( 'wpcf7_form_action_url', 'remove_form_fragment' );
 function remove_form_fragment( $url ) {
     return remove_query_arg( 'wpcf7', $url );
 }
+
+
+function create_post_types()
+{
+    // Registrar o tipo de post "empresas"
+    register_post_type(
+        'empresas',
+        array(
+            'labels' => array(
+                'name' => __('Empresas'),
+                'singular_name' => __('Empresas')
+            ),
+            'supports' => array(
+                'title', 'editor', 'thumbnail', 'excerpt'
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'menu_position' => 3,
+            'menu_icon' => 'dashicons-groups',
+            'rewrite' => array('slug' => 'empresas'),
+        )
+    );
+
+		   // Registrar o tipo de post "cases"
+			 register_post_type(
+        'cases',
+        array(
+            'labels' => array(
+                'name' => __('Cases'),
+                'singular_name' => __('Cases')
+            ),
+            'supports' => array(
+                'title', 'editor', 'thumbnail', 'excerpt'
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'menu_position' => 4,
+            'menu_icon' => 'dashicons-images-alt2',
+            'rewrite' => array('slug' => 'cases'),
+        )
+    );
+    // Registrar o tipo de post "noticias"
+    register_post_type(
+        'noticias',
+        array(
+            'labels' => array(
+                'name' => __('Noticias'),
+                'singular_name' => __('Noticias')
+            ),
+            'supports' => array(
+                'title', 'editor', 'thumbnail', 'excerpt'
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'menu_position' => 5,
+            'menu_icon' => 'dashicons-book',
+            'rewrite' => array('slug' => 'noticias'),
+        )
+    );
+}
+add_action('init', 'create_post_types');
 
 
 ?>
