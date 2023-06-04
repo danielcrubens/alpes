@@ -4,8 +4,8 @@ get_header();
 // Verifique se estamos na página de livros
 if (is_post_type_archive('empresas')) {
 	get_template_part('page-empresas');
-} elseif (is_post_type_archive('cases')) {
-	get_template_part('page-cases');
+} elseif (is_post_type_archive('noticias')) {
+	get_template_part('page-noticias');
 } else {
 	// Restante do código para exibir o conteúdo do arquivo index.php
 	if (have_posts()) {

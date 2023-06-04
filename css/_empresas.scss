@@ -22,30 +22,20 @@
       }
     }
   }
-  h3,
-  p {
+  h5 {
     color: $text-dark-blue;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
   }
+  p {
+    color: $text-dark-blue;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400!important;
+  }
   .last {
     font-weight: 400;
   }
-  .bg-cloud-left {
-    background-image: url(../assets/imagens/cloud-top.webp);
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: -28rem 48rem;
-    @include xl3 {
-      background-position: -28rem 62rem;
-    }
-    @include md {
-      background-image: none;
-    }
-    @include sm {
-      background-image: none;
-    }
-  }
+
   .overlay-bottom {
     background-image: url(../assets/imagens/overlay-right.webp);
     background-size: auto;
@@ -57,7 +47,7 @@
       background-position: bottom;
     }
   }
-  hr{
-    background: #292E4A;
+  hr {
+    background: #292e4a;
   }
 }

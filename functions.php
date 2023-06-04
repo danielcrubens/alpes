@@ -1,11 +1,11 @@
-<?php 
+<?php
 
 // Chamar a tag Title
 function alpes_theme_support()
 {
     // Chamar a tag Title
     add_theme_support('title-tag');
-    
+
 
     // Adicionar os formatos de posts
     add_theme_support('post-formats', array('aside', 'chat', 'status', 'video', 'audio', 'gallery', 'image'));
@@ -29,7 +29,7 @@ if (!function_exists('_wp_render_title_tag')) {
 // Definir as miniaturas dos posts
 add_theme_support('post-thumbnails');
 set_post_thumbnail_size(1024, 460, true);
-add_image_size( 'mini-thumb', 190, 90,true );
+add_image_size('mini-thumb', 190, 90, true);
 
 
 // Definir o tamanho o resumo
@@ -44,7 +44,7 @@ register_sidebar(
         'id' => 'sidebar',
         'before_widget' => '<section class="card_category border-0 my-4 red z-depth-1">',
         'after_widget' => '</section>',
-       
+
     )
 );
 
@@ -126,10 +126,11 @@ function my_login_logo_url_title()
 add_filter('login_headertitle', 'my_login_logo_url_title');
 
 
-add_filter( 'wpcf7_form_action_url', 'remove_form_fragment' );
+add_filter('wpcf7_form_action_url', 'remove_form_fragment');
 
-function remove_form_fragment( $url ) {
-    return remove_query_arg( 'wpcf7', $url );
+function remove_form_fragment($url)
+{
+    return remove_query_arg('wpcf7', $url);
 }
 
 
@@ -154,8 +155,8 @@ function create_post_types()
         )
     );
 
-		   // Registrar o tipo de post "cases"
-			 register_post_type(
+    // Registrar o tipo de post "cases"
+    register_post_type(
         'cases',
         array(
             'labels' => array(
