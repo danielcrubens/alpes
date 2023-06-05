@@ -2,14 +2,14 @@
 
 <section class="news-single-alpes">
   <section class="d-flex justify-content-center m-auto align-items-center mt-5">
-    <img loading="lazy" class="img-fluid position-img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/imagens/logo-alpes.webp" alt="Logo Alpes">
+  <?php get_template_part('template-parts/content', 'alpes-logo'); ?>
   </section>
 
   <section class=" bg-alpes d-flex justify-content-center m-auto align-items-center">
     <div class="col-xl-11">
       <div class="container-fluid">
         <div class="row d-flex justify-content-center">
-          <h1 class="text-center h1-responsive">NOTÍCIAS</h1>
+          <h1 id="scroll-heading" class="text-center h1-responsive scroll-down">NOTÍCIAS</h1>
         </div>
       </div>
     </div>
@@ -40,8 +40,8 @@
     </div>
     <div class="col-xl-11 py-5 d-flex justify-content-end m-auto align-items-center custom-post">
       <div class="container-fluid">
-        <h2 class="h2-responsive mb-3">Relacionadas</h2>
-        <div class="row d-flex justify-content-between  align-items-center">
+        <h2 class="h2-responsive mb-3 scroll-down">Relacionadas</h2>
+        <div class="row d-flex justify-content-between  align-items-center scroll-down">
           <?php
           $my_args = array(
             'post_type' => 'noticias',

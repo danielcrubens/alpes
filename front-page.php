@@ -5,7 +5,7 @@
 <main class="front-page">
 
   <section class="d-flex justify-content-center m-auto align-items-center mt-5">
-    <img loading="lazy" class="img-fluid position-img scroll-down" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/imagens/logo-alpes.webp" alt="Logo Alpes">
+  <?php get_template_part('template-parts/content', 'alpes-logo'); ?>
   </section>
   <section class=" bg-alpes d-flex justify-content-center m-auto align-items-center">
     <div class="col-xl-11">
@@ -128,8 +128,8 @@
                 </div>
               </div>
             </div>
-            <div class="d-flex my-md-5 mt-5">
-              <a class="btn-alpes m-auto"> CONHEÇA NOSSOS CLIENTES</a>
+            <div class="d-flex my-md-5 mt-5 scroll-down">
+              <a href="<?php echo esc_url(home_url('/')); ?>empresas" class="btn-alpes m-auto"> CONHEÇA NOSSOS CLIENTES</a>
             </div>
 
             <div class="pt-5 mt-10 scroll-down">
@@ -138,7 +138,7 @@
             </div>
 
             <section class="content-masonry d-md-block d-none">
-              <div class=" container-button">
+              <div class=" container-button scroll-down">
                 <button id="toggleButton">
                   <i id="toggleIcon" class="fas fa-hand-point-up"></i>
                 </button>
@@ -151,25 +151,25 @@
                     <div id="masonry1" class="grid-masonry visible">
                       <div class="container-fluid">
                         <div class='front-container'>
-                          <div class='small'>
+                          <div class='small scroll-down-delay-1'>
                             <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114317528269852764/image_5.png'>
                           </div>
-                          <div class='small'>
+                          <div class='small scroll-down-delay-1'>
                             <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318043548500048/image_6.png'>
                           </div>
-                          <div class='small'>
+                          <div class='small scroll-down-delay-1'>
                             <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318080672288798/image_8.png'>
                           </div>
-                          <div class='large'>
+                          <div class='large scroll-down-delay-1'>
                             <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318044248948746/Group_3.png'>
                           </div>
-                          <div class='medium'>
+                          <div class='medium scroll-down-delay-1'>
                             <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318043791753296/image_9.png'>
                           </div>
-                          <div class='large'>
+                          <div class='large scroll-down-delay-1'>
                             <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318044018249838/image_7.png'>
                           </div>
-                          <div class='small'>
+                          <div class='small scroll-down-delay-1'>
                             <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318050259374090/image_11.png'>
                           </div>
                         </div>
@@ -209,8 +209,8 @@
             </section>
 
           </div>
-          <div class="d-flex">
-            <a class="btn-alpes m-auto">CASES DE SUCESSO</a>
+          <div class="d-flex scroll-down">
+            <a href="<?php echo esc_url(home_url('/')); ?>cases" class="btn-alpes m-auto">CASES DE SUCESSO</a>
           </div>
           <div class="py-5 mt-10">
             <div class="pt-5 scroll-down">
@@ -243,9 +243,9 @@
                 </div>
               </div>
 
-              <div class="d-flex m-auto my-md-5">
+              <div class="d-flex m-auto my-md-5 scroll-down">
                 <div class="py-5">
-                  <a class="btn-alpes m-auto">CONHEÇA O GRUPO ALPES</a>
+                  <a href="<?php echo esc_url(home_url('/')); ?>sobre" class="btn-alpes m-auto">CONHEÇA O GRUPO ALPES</a>
                 </div>
               </div>
             </div>
@@ -283,9 +283,9 @@
               </div>
             </div>
 
-            <div class="d-flex m-auto my-md-5">
+            <div class="d-flex m-auto my-md-5 scroll-down">
               <div class="py-5">
-                <a class="btn-alpes m-auto px-md-5">VEJA MAIS</a>
+                <a href="<?php echo esc_url(home_url('/')); ?>noticias" class="btn-alpes m-auto px-md-5">VEJA MAIS</a>
               </div>
             </div>
           </div>
@@ -340,7 +340,7 @@
           </div>
         </div>
         <div class="d-flex mt-5">
-          <a class="btn-alpes m-auto"> CONHEÇA NOSSOS CLIENTES</a>
+          <a href="<?php echo esc_url(home_url('/')); ?>empresas" class="btn-alpes m-auto"> CONHEÇA NOSSOS CLIENTES</a>
         </div>
       </div>
     </div>
@@ -571,7 +571,7 @@
           </div>
         </div>
         <div class="d-flex my-md-5 scroll-down">
-          <a class="btn-alpes m-auto">CONHEÇA NOSSOS SERVIÇOS</a>
+          <a href="<?php echo esc_url(home_url('/')); ?>sobre" class="btn-alpes m-auto">CONHEÇA NOSSOS SERVIÇOS</a>
         </div>
       </div>
     </div>
@@ -583,7 +583,7 @@
         <h2 class="text-center h2-responsive scroll-down">E ESSE É O PRIMEIRO PASSO DA AVENTURA</h2>
         <img loading="lazy" class="img-fluid d-flex m-auto scroll-down" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
         <div class="d-flex mt-5">
-          <a class="btn-alpes m-auto scroll-down">DÊ O SEU PRIMEIRO PASSO</a>
+          <a href="<?php echo esc_url(home_url('/')); ?>contatos" class="btn-alpes m-auto scroll-down">DÊ O SEU PRIMEIRO PASSO</a>
         </div>
         <div class="position-text mb-4">
           <img loading="lazy" class="img-fluid d-flex m-auto scroll-down" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">

@@ -6,14 +6,14 @@
 <section class="companies-alpes">
  <section class="news-single-alpes">
   <section class="d-flex justify-content-center m-auto align-items-center mt-5">
-    <img loading="lazy" class="img-fluid position-img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/imagens/logo-alpes.webp" alt="Logo Alpes">
+  <?php get_template_part('template-parts/content', 'alpes-logo'); ?>
   </section>
 
   <section class=" bg-alpes d-flex justify-content-center m-auto align-items-center">
     <div class="col-xl-11">
       <div class="container-fluid">
         <div class="row d-flex justify-content-center">
-          <h1 class="text-center h1-responsive">NOTÍCIAS</h1>
+          <h1 id="scroll-heading" class="text-center h1-responsive scroll-top">CASES</h1>
         </div>
       </div>
     </div>
@@ -22,7 +22,7 @@
   <section class="white-dark bg-sole ">
     <div class="bg-cloud "></div>
     <div class="col-xl-11 mt-10 py-5 m-auto">
-      <div class="container-fluid">
+      <div class="container-fluid scroll-down">
         <div id="custom-filter" class="row pt-5 m-auto d-flex justify-content-center">
           <li>
             <a class="mx-md-4 mx-3 h4-responsive active-cases" data-filter="*">Todos</a>
@@ -35,7 +35,7 @@
           </li>
         </div>
 
-        <div class="iso-container row mt-5 mt-md-0 d-flex justify-content-between">
+        <div class=" iso-container row mt-5 mt-md-0 d-flex justify-content-between">
           <?php
           $args = array(
             'post_type' => 'cases',

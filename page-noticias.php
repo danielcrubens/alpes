@@ -5,14 +5,14 @@
 <?php get_header(); ?>
 <section class="news-alpes">
   <section class="d-flex justify-content-center m-auto align-items-center mt-5">
-    <img loading="lazy" class="img-fluid position-img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/imagens/logo-alpes.webp" alt="Logo Alpes">
+  <?php get_template_part('template-parts/content', 'alpes-logo'); ?>
   </section>
 
   <section class=" bg-alpes d-flex justify-content-center m-auto align-items-center">
     <div class="col-xl-11">
       <div class="container-fluid">
         <div class="row d-flex justify-content-center">
-          <h1 class="text-center h1-responsive">NOTÍCIAS</h1>
+          <h1 id="scroll-heading" class="text-center h1-responsive scroll-top">NOTÍCIAS</h1>
         </div>
       </div>
     </div>
@@ -22,8 +22,8 @@
   <section class="white-dark bg-sole">
     <div class="bg-cloud "></div>
     <div class="col-xl-11 col-md-11  d-flex justify-content-between m-auto align-items-center">
-      <div class="container-fluid mt-10">
-        <div class="row mt-5 mt-md-0 d-flex justify-content-between ">
+      <div class="container-fluid mt-10 scroll-down">
+        <div class="row mt-5 mt-md-0 d-flex justify-content-between">
           <?php
           $args = array(
             'post_type' => 'noticias',
@@ -36,7 +36,7 @@
             while ($my_query->have_posts()) :
               $my_query->the_post();
           ?>
-              <div class="col-xl-7 col-md-7 mt-5 custom-post">
+              <div class="col-xl-7 col-md-7 mt-5 custom-post scroll-down">
                 <a href="<?php the_permalink(); ?>">
                   <?php the_post_thumbnail('post-thumbnail', array('class' => 'img-fluid')); ?>
                 </a>

@@ -4,14 +4,14 @@
 <?php get_header(); ?>
 <section class="companies-alpes">
   <section class="d-flex justify-content-center m-auto align-items-center mt-5">
-    <img loading="lazy" class="img-fluid position-img" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/imagens/logo-alpes.webp" alt="Logo Alpes">
+  <?php get_template_part('template-parts/content', 'alpes-logo'); ?>
   </section>
 
   <section class=" bg-alpes d-flex justify-content-center m-auto align-items-center">
     <div class="col-xl-11">
       <div class="container-fluid">
         <div class="row d-flex justify-content-center">
-          <h1 class="text-center h1-responsive">EMPRESAS</h1>
+          <h1 id="scroll-heading" class="text-center h1-responsive scroll-top">EMPRESAS</h1>
         </div>
       </div>
     </div>
@@ -20,12 +20,12 @@
   <section class="white-dark bg-cloud-overlay custom-post-companies">
     <div class="bg-cloud "></div>
     <div class="col-xl-12 py-5">
-      <div class="container-fluid p-md-0 my-md-5">
+      <div class="container-fluid p-md-0 my-md-5 scroll-down">
         <div class="py-md-5">
           <h2 class="text-center h2-responsive">ANTES DE ESCALAR PEÇA AJUDA AOS GIGANTES</h2>
         </div>
 
-        <div class="row mt-5">
+        <div class="row mt-5 scroll-down">
           <?php
           $args = array(
             'post_type' => 'empresas',
@@ -39,7 +39,7 @@
             while ($empresas_query->have_posts()) :
               $empresas_query->the_post();
           ?>
-              <div class="row mt-5">
+              <div class="row mt-5 scroll-down">
                 <?php
                 if ($iteration % 2 == 0) {
                 ?>

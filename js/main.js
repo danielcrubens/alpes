@@ -1,4 +1,64 @@
 "use strict";
+$(document).ready(function () {
+
+  const ScrollDown = ScrollReveal({
+    duration: 960,
+    distance: "50px",
+    origin: "top",
+    easing: "ease-out",
+    reset: false,
+  });
+  ScrollDown.reveal(".scroll-down", { delay: 350 });
+  ScrollDown.reveal(".scroll-down-delay-1", { delay: 450 });
+  ScrollDown.reveal(".scroll-down-delay-2", { delay: 550 });
+  ScrollDown.reveal(".scroll-down-delay-3", { delay: 650 });
+  ScrollDown.reveal(".scroll-down-delay-4", { delay: 750 });
+
+  const ScrollTop = ScrollReveal({
+    duration: 960,
+    distance: "50px",
+    origin: "bottom",
+    easing: "ease-out",
+    reset: false,
+  });
+  ScrollTop.reveal(".scroll-top", { delay: 350 });
+
+  const ScrollLeft = ScrollReveal({
+    origin: "left",
+    distance: "50px",
+    duration: 690,
+    reset: false,
+    easing: "ease-out",
+  });
+  ScrollLeft.reveal(".scroll-left", { delay: 350 });
+
+  const ScrollRight = ScrollReveal({
+    origin: "right",
+    distance: "50px",
+    duration: 690,
+    reset: false,
+    easing: "ease-out",
+  });
+  ScrollRight.reveal(".scroll-right", { delay: 350 });
+  ScrollRight.reveal(".scroll-right-delay-1", { delay: 30 });
+
+});
+$(document).ready(function () {
+  const scrollTopBtn = document.querySelector('#scrollTop')
+  if (scrollTopBtn) {
+    scrollTopBtn.addEventListener('click', function (event) {
+      event.preventDefault()
+      window.scrollTo(0, 0,)
+    })
+    window.addEventListener('scroll', function () {
+      if (window.pageYOffset >= 1200) {
+        scrollTopBtn.classList.add('active')
+      } else {
+        scrollTopBtn.classList.remove('active')
+      }
+    })
+  }
+  });
 $(document).ready(function() {
   var customContainer = jQuery(".iso-container");
   customContainer.isotope({
@@ -126,77 +186,13 @@ toggleButton.addEventListener('click', () => {
   toggleIcon.classList.toggle('fa-hand-point-up', isGrid1Hidden);
 });
 
-$(document).ready(function () {
 
-  const ScrollDown = ScrollReveal({
-    duration: 960,
-    distance: "50px",
-    origin: "top",
-    easing: "ease-out",
-    reset: false,
-  });
-  ScrollDown.reveal(".scroll-down", { delay: 350 });
-  ScrollDown.reveal(".scroll-down-delay-1", { delay: 450 });
-  ScrollDown.reveal(".scroll-down-delay-2", { delay: 550 });
-  ScrollDown.reveal(".scroll-down-delay-3", { delay: 650 });
-  ScrollDown.reveal(".scroll-down-delay-4", { delay: 750 });
-
-
-
-
-
-  const ScrollTop = ScrollReveal({
-    duration: 960,
-    distance: "50px",
-    origin: "bottom",
-    easing: "ease-out",
-    reset: false,
-  });
-  ScrollTop.reveal(".scroll-top", { delay: 350 });
-
-
-
-  const ScrollLeft = ScrollReveal({
-    origin: "left",
-    distance: "50px",
-    duration: 690,
-    reset: false,
-    easing: "ease-out",
-  });
-  ScrollLeft.reveal(".scroll-left", { delay: 10 });
-
-  const ScrollRight = ScrollReveal({
-    origin: "right",
-    distance: "50px",
-    duration: 690,
-    reset: false,
-    easing: "ease-out",
-  });
-  ScrollRight.reveal(".scroll-right", { delay: 250 });
-  ScrollRight.reveal(".scroll-right-delay-1", { delay: 30 });
-
-});
 const hamburger = document.querySelector("#nav-icon");
 hamburger.addEventListener("click", function () {
   document.querySelector(".side-nav-list").classList.toggle("slide-in");
   document.querySelector(".hamburger").classList.toggle("close-nav");
 });
 
-
-const scrollTopBtn = document.querySelector('#scrollTop')
-if (scrollTopBtn) {
-  scrollTopBtn.addEventListener('click', function (event) {
-    event.preventDefault()
-    window.scrollTo(0, 0,)
-  })
-  window.addEventListener('scroll', function () {
-    if (window.pageYOffset >= 1200) {
-      scrollTopBtn.classList.add('active')
-    } else {
-      scrollTopBtn.classList.remove('active')
-    }
-  })
-}
 
 const redDot = () => {
   const rows = Array.from(document.querySelectorAll(".timeline-scroll .items > .item"));
