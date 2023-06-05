@@ -68,4 +68,14 @@
       margin-top: .1rem;
     }
   }
+  #custom-filter{
+    a{
+      font-weight: 400;
+      font-family: "Michroma", sans-serif;
+
+    }
+  }
+  .active-cases{
+    border-bottom: solid $blue 2px; 
+  }
 }

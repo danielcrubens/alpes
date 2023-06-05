@@ -15,7 +15,6 @@
   <link rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/css/mdb.min.css">
   <link rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/css/main.css">
-
   <?php wp_head(); ?>
 </head>
 <?php flush(); ?>

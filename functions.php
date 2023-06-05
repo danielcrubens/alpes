@@ -171,6 +171,9 @@ function create_post_types()
             'menu_position' => 4,
             'menu_icon' => 'dashicons-images-alt2',
             'rewrite' => array('slug' => 'cases'),
+            'taxonomies' => array('category'),
+            'post-formats' => array('aside', 'gallery', 'video')
+            
         )
     );
     // Registrar o tipo de post "noticias"
