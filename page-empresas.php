@@ -47,11 +47,11 @@
                     <?php the_post_thumbnail('post-thumbnails', array('class' => 'img-fluid')); ?>
                   </div>
                   <div class="col-md-6 d-inline-block align-items-stretch">
-                    <img loading="lazy" class="img-fluid mx-md-5 mb-3 d-none d-md-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-azul.svg" alt="Logo Alpes">
+                    <img loading="lazy" class="img-fluid mx-md-5 mb-3 d-none d-md-block"src="<?php the_field('imagem-empresas'); ?>" alt="Logo Alpes">
                     <div class="mx-md-5">
                       <h5 class="h5-responsive"><?php the_title(); ?></h5>
-                      <p class="last mb-md-3 "><?php the_excerpt(); ?></p>
-                      <a class="btn-alpes m-auto m-0   d-md-inline-block" href="<?php the_permalink(); ?>">
+                      <p class="last mb-md-3 "><?php the_content(); ?></p>
+                      <a class="btn-alpes m-auto m-0   d-md-inline-block" href="<?php the_field('link-empresas'); ?>">
                         VER MAIS
                       </a>
                     </div>
@@ -63,11 +63,11 @@
                     <?php the_post_thumbnail('meu-thumb', array('class' => 'img-fluid')); ?>
                   </div>
                   <div class="col-md-6 order-md-1">
-                    <img loading="lazy" class="img-fluid mx-md-5 d-none d-md-block" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-azul.svg" alt="Logo Alpes">
+                    <img loading="lazy" class="img-fluid mx-md-5 d-none d-md-block" src="<?php the_field('imagem-empresas'); ?>" alt="Logo Alpes">
                     <div class="mx-md-5">
                       <h5 class="h5-responsive"><?php the_title(); ?></h5>
                       <p class="last mb-md-3 "><?php the_excerpt(); ?></p>
-                      <a class="btn-alpes m-auto m-0 d-none  d-md-inline-block" href="<?php the_permalink(); ?>">
+                      <a class="btn-alpes m-auto m-0 d-none  d-md-inline-block" href="<?php the_field('link-empresas'); ?>">
                         VER MAIS
                       </a>
                     </div>
@@ -93,8 +93,4 @@
 
   </section>
 </section>
-
-
-
-
 <?php get_footer(); ?>
