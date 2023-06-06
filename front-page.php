@@ -45,86 +45,86 @@
             </div>
             <div class="row d-none d-lg-inline-flex my-5 scroll-down">
               <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right b-bottom p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover dan">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/joie.svg" alt="Logo Joie">
+                <div class="d-flex w-100 h-100 card-hover img-random">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-1'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right b-bottom p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover dan">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/helbor.svg" alt="Logo Helbor">
+                <div class="d-flex w-100 h-100 card-hover img-random">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-2'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right b-bottom p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover dan">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/ervik.svg" alt="Logo Ervik">
+                <div class="d-flex w-100 h-100 card-hover img-random">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-3'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-bottom p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover dan">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/hardrock.svg" alt="Logo Hard Rock">
+                <div class="d-flex w-100 h-100 card-hover img-random">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-4'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 col-md-3 d-none d-lg-flex b-right p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/hardrock.svg" alt="Logo Hard Rock">
+                <div class="d-flex w-100 h-100 card-hover img-random">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-5'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-none d-lg-flex b-right p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover dan">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/giovanna.svg" alt="Logo giovanna">
+                <div class="d-flex w-100 h-100 card-hover img-random">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-6'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-none d-lg-flex b-right p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover dan">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/joie.svg" alt="Logo Joie">
+                <div class="d-flex w-100 h-100 card-hover img-random">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-7'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-none d-lg-flex p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover dan">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/helbor.svg" alt="Logo Helbor">
+                <div class="d-flex w-100 h-100 card-hover img-random">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-8'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
             </div>
 
             <div class="row d-block d-lg-none d-inline-flex mt-3 mt-md-0">
               <div class="col-xl-3 col-6 col-md-3 d-none  d-md-block d-lg-flex b-right b-bottom p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/joie.svg" alt="Logo Joie">
+                <div class="d-flex w-100 h-100 card-hover img-random">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-1'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-none  d-md-block d-lg-flex b-right b-bottom p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/helbor.svg" alt="Logo Helbor">
+                <div class="d-flex w-100 h-100 card-hover img-random">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-2'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right b-bottom p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/ervik.svg" alt="Logo Ervik">
+                <div class="d-flex w-100 h-100 card-hover img-random">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-3'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-bottom p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/hardrock.svg" alt="Logo Hard Rock">
+                <div class="d-flex w-100 h-100 card-hover img-random">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-4'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 col-md-3 d-flex b-right p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/hardrock.svg" alt="Logo Hard Rock">
+                <div class="d-flex w-100 h-100 card-hover img-random">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-5'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-flex b-right b-right-sm p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/giovanna.svg" alt="Logo giovanna">
+                <div class="d-flex w-100 h-100 card-hover img-random">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-6'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-none  d-md-block d-lg-flex b-right p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/joie.svg" alt="Logo Joie">
+                <div class="d-flex w-100 h-100 card-hover img-random">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-7'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-none  d-md-block d-lg-flex p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/helbor.svg" alt="Logo Helbor">
+                <div class="d-flex w-100 h-100 card-hover img-random">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-8'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
             </div>
@@ -152,25 +152,25 @@
                       <div class="container-fluid">
                         <div class='front-container'>
                           <div class='small scroll-down-delay-1'>
-                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114317528269852764/image_5.png'>
+                            <img src="<?php the_field('imagem-masonry-1.1'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='small scroll-down-delay-1'>
-                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318043548500048/image_6.png'>
+                            <img src="<?php the_field('imagem-masonry-1.2'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='small scroll-down-delay-1'>
-                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318080672288798/image_8.png'>
+                            <img src="<?php the_field('imagem-masonry-1.3'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='large scroll-down-delay-1'>
-                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318044248948746/Group_3.png'>
+                            <img src="<?php the_field('imagem-masonry-1.4'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='medium scroll-down-delay-1'>
-                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318043791753296/image_9.png'>
+                            <img src="<?php the_field('imagem-masonry-1.5'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='large scroll-down-delay-1'>
-                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318044018249838/image_7.png'>
+                            <img src="<?php the_field('imagem-masonry-1.6'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='small scroll-down-delay-1'>
-                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318050259374090/image_11.png'>
+                            <img src="<?php the_field('imagem-masonry-1.7'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                         </div>
                       </div>
@@ -180,25 +180,25 @@
                       <div class="container-fluid">
                         <div class='front-container'>
                           <div class='small'>
-                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114317528269852764/image_5.png'>
+                          <img src="<?php the_field('imagem-masonry-1.1'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='small'>
-                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318043548500048/image_6.png'>
+                          <img src="<?php the_field('imagem-masonry-1.2'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='small'>
-                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318080672288798/image_8.png'>
+                          <img src="<?php the_field('imagem-masonry-1.3'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='large'>
-                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318044248948746/Group_3.png'>
+                          <img src="<?php the_field('imagem-masonry-1.4'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='medium'>
-                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318043791753296/image_9.png'>
+                          <img src="<?php the_field('imagem-masonry-1.5'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='large'>
-                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318044018249838/image_7.png'>
+                          <img src="<?php the_field('imagem-masonry-1.6'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='small'>
-                            <img src='https://cdn.discordapp.com/attachments/841400428134662155/1114318050259374090/image_11.png'>
+                          <img src="<?php the_field('imagem-masonry-1.7'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                         </div>
                       </div>
@@ -219,27 +219,27 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-11 col-md-11 h-100 m-auto scroll-down">
+        <div class="col-xl-11 red col-md-11 h-100 m-auto scroll-down">
           <div class="container-fluid">
             <div class="row d-none d-flex my-5">
               <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/alpes.svg" alt="Logo Alpes">
+                <div class="d-flex w-100 h-100 card-hover img-dan">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-escalar-1'); ?>" alt="Logo Grupo Alpes">
+                </div>
+              </div>
+              <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right p-1 py-1">
+                <div class="d-flex w-100 h-100 card-hover dan">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-escalar-2'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right p-1 py-1">
                 <div class="d-flex w-100 h-100 card-hover">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/fama.svg" alt="Logo Fama Media Marketing">
-                </div>
-              </div>
-              <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right p-1 py-1">
-                <div class="d-flex w-100 h-100 card-hover">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/plim.svg" alt="Logo Plim">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-escalar-3'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
               <div class="col-xl-3 col-6 col-md-3 d-lg-flex p-1 py-1">
                 <div class="d-flex w-100 h-100 card-hover">
-                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/midiasos.svg" alt="Logo Midia SOS">
+                  <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-escalar-4'); ?>" alt="Logo Grupo Alpes">
                 </div>
               </div>
 
@@ -264,22 +264,22 @@
           <div class="row d-none d-flex my-5">
             <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right p-1 py-1">
               <div class="d-flex w-100 h-100 card-hover">
-                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/jp.svg" alt="Logo Alpes">
+                <img loading="lazy" class="img-fluid m-auto d-flex img-random" src="<?php the_field('imagem-midia-1'); ?>" alt="Grupo Alpes">
               </div>
             </div>
             <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right p-1 py-1">
               <div class="d-flex w-100 h-100 card-hover">
-                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/jp.svg" alt="Logo Fama Media Marketing">
+                <img loading="lazy" class="img-fluid m-auto d-flex img-random" src="<?php the_field('imagem-midia-2'); ?>" alt="Grupo Alpes">
               </div>
             </div>
             <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right p-1 py-1">
               <div class="d-flex w-100 h-100 card-hover">
-                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/jp.svg" alt="Logo Plim">
+                <img loading="lazy" class="img-fluid m-auto d-flex img-random" src="<?php the_field('imagem-midia-3'); ?>" alt="Grupo Alpes">
               </div>
             </div>
             <div class="col-xl-3 col-6 col-md-3 d-lg-flex p-1 py-1">
               <div class="d-flex w-100 h-100 card-hover">
-                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/jp.svg" alt="Logo Midia SOS">
+                <img loading="lazy" class="img-fluid m-auto d-flex img-random" src="<?php the_field('imagem-midia-4'); ?>" alt="Grupo Alpes">
               </div>
             </div>
 
@@ -320,22 +320,22 @@
         <div class="row d-block d-lg-none d-inline-flex mt-3 mt-md-0">
           <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right b-bottom p-1 py-1">
             <div class="d-flex w-100 h-100 card-hover">
-              <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/ervik.svg" alt="Logo Ervik">
+              <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-1'); ?>" alt="Logo Grupo Alpes">
             </div>
           </div>
           <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-bottom p-1 py-1">
             <div class="d-flex w-100 h-100 card-hover">
-              <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/hardrock.svg" alt="Logo Hard Rock">
+              <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-2'); ?>" alt="Logo Grupo Alpes">
             </div>
           </div>
           <div class="col-xl-3 col-6 col-md-3 col-md-3 d-flex b-right p-1 py-1">
             <div class="d-flex w-100 h-100 card-hover">
-              <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/hardrock.svg" alt="Logo Hard Rock">
+              <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-3'); ?>" alt="Logo Grupo Alpes">
             </div>
           </div>
           <div class="col-xl-3 col-6 col-md-3 d-flex b-right b-right-sm p-1 py-1">
             <div class="d-flex w-100 h-100 card-hover">
-              <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/giovanna.svg" alt="Logo giovanna">
+              <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-random-4'); ?>" alt="Logo Grupo Alpes">
             </div>
           </div>
         </div>
@@ -352,9 +352,9 @@
       </div>
       <div class="col-12 mt-4 m-0 p-0">
         <div class="container-fluid p-0">
-          <img loading="lazy" class="img-fluid d-flex m-auto d-block d-md-none" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/imagens/grid-cases-mobile.webp" alt="Grid Cases">
+          <img loading="lazy" class="img-fluid d-flex m-auto d-block d-md-none" src="<?php the_field('imagem-grid-cases-mobile'); ?>" alt="Grid Cases">
           <div class="d-flex my-5">
-            <a class="btn-alpes m-auto">CASES DE SUCESSO</a>
+            <a href="<?php echo esc_url(home_url('/')); ?>cases" class="btn-alpes m-auto">CASES DE SUCESSO</a>
           </div>
         </div>
       </div>
@@ -370,28 +370,28 @@
           <div class="row d-none d-flex my-5">
             <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right b-bottom p-3 py-1">
               <div class="d-flex w-100 h-100 card-hover">
-                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/alpes.svg" alt="Logo Alpes">
+                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-escalar-1'); ?>" alt="Logo Grupo Alpes">
               </div>
             </div>
             <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-bottom p-3 py-3">
               <div class="d-flex w-100 h-100 card-hover">
-                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/plim.svg" alt="Logo Plim">
+                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-escalar-2'); ?>" alt="Logo Grupo Alpes">
               </div>
             </div>
             <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right p-3 py-1">
               <div class="d-flex w-100 h-100 card-hover">
-                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/alpes.svg" alt="Logo Alpes">
+                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-escalar-3'); ?>" alt="Logo Grupo Alpes">
               </div>
             </div>
             <div class="col-xl-3 col-6 col-md-3 d-lg-flex p-3 py-1">
               <div class="d-flex w-100 h-100 card-hover">
-                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/plim.svg" alt="Logo Plim">
+                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-escalar-4'); ?>" alt="Logo Grupo Alpes">
               </div>
             </div>
 
             <div class="d-flex m-auto my-5">
               <div class="py-5">
-                <a class="btn-alpes m-auto">CONHEÇA O GRUPO ALPES</a>
+                <a href="<?php echo esc_url(home_url('/')); ?>sobre" class="btn-alpes m-auto">CONHEÇA O GRUPO ALPES</a>
               </div>
             </div>
           </div>
@@ -412,28 +412,28 @@
           <div class="row d-none d-flex my-5">
             <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right b-bottom p-3 py-1">
               <div class="d-flex w-100 h-100 card-hover">
-                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/jp.svg" alt="Logo Alpes">
+                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-escalar-1'); ?>" alt="Logo Grupo Alpes">
               </div>
             </div>
             <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-bottom p-3 py-1">
               <div class="d-flex w-100 h-100 card-hover">
-                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/jp.svg" alt="Logo Fama Media Marketing">
+                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-escalar-2'); ?>" alt="Logo Grupo Alpes">
               </div>
             </div>
             <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right p-3 py-1">
               <div class="d-flex w-100 h-100 card-hover">
-                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/jp.svg" alt="Logo Plim">
+                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-escalar-3'); ?>" alt="Logo Grupo Alpes">
               </div>
             </div>
             <div class="col-xl-3 col-6 col-md-3 d-lg-flex p-3 py-1">
               <div class="d-flex w-100 h-100 card-hover">
-                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/jp.svg" alt="Logo Midia SOS">
+                <img loading="lazy" class="img-fluid m-auto d-flex" src="<?php the_field('imagem-escalar-4'); ?>" alt="Logo Grupo Alpes">
               </div>
             </div>
 
             <div class="d-flex m-auto my-md-5">
               <div class="py-5">
-                <a class="btn-alpes m-auto">CONHEÇA O GRUPO ALPES</a>
+                <a href="<?php echo esc_url(home_url('/')); ?>sobre" class="btn-alpes m-auto">CONHEÇA O GRUPO ALPES</a>
               </div>
             </div>
           </div>
@@ -446,58 +446,7 @@
   <section class="bravery-alpes d-flex justify-content-center py-5">
     <div class="col-xl-11">
       <div class="container-fluid">
-        <div class="row d-none">
-          <div class="col m-auto">
-            <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
-              <div class="circle-hover rounded-circle overlay zoom">
-                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
-              </div>
-              <div class="card-body">
-                <p>Lorem ipsum</p>
-              </div>
-            </div>
-          </div>
-          <div class="col m-auto">
-            <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
-              <div class="circle-hover rounded-circle overlay zoom">
-                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/mosquetao.svg" alt="Mosquetão">
-              </div>
-              <div class="card-body">
-                <p>Lorem ipsum</p>
-              </div>
-            </div>
-          </div>
-          <div class="col m-auto">
-            <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
-              <div class="circle-hover rounded-circle overlay zoom">
-                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/bota.svg" alt="Bota">
-              </div>
-              <div class="card-body">
-                <p>Lorem ipsum</p>
-              </div>
-            </div>
-          </div>
-          <div class="col m-auto">
-            <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
-              <div class="circle-hover rounded-circle overlay zoom">
-                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/mochila.svg" alt="Mochila">
-              </div>
-              <div class="card-body">
-                <p>Lorem ipsum</p>
-              </div>
-            </div>
-          </div>
-          <div class="col m-auto">
-            <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
-              <div class="circle-hover rounded-circle overlay zoom">
-                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/corda.svg" alt="Corda">
-              </div>
-              <div class="card-body">
-                <p>Lorem ipsum</p>
-              </div>
-            </div>
-          </div>
-        </div>
+       
         <div class="row">
           <div class="col col m-auto d-none d-md-block scroll-down">
             <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
@@ -505,7 +454,7 @@
                 <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
               </div>
               <div class="card-body text-center">
-                <p>Lorem ipsum</p>
+                <p><?php the_field('texto-servicos-1'); ?></p>
               </div>
             </div>
           </div>
@@ -515,7 +464,7 @@
                 <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
               </div>
               <div class="card-body text-center">
-                <p>Lorem ipsum</p>
+                <p><?php the_field('texto-servicos-1'); ?></p>
               </div>
             </div>
           </div>
@@ -525,7 +474,7 @@
                 <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/mosquetao.svg" alt="Mosquetão">
               </div>
               <div class="card-body text-center">
-                <p>Lorem ipsum</p>
+                <p><?php the_field('texto-servicos-2'); ?></p>
               </div>
             </div>
           </div>
@@ -535,7 +484,7 @@
                 <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/mosquetao.svg" alt="Casa">
               </div>
               <div class="card-body text-center">
-                <p>Lorem ipsum</p>
+                <p><?php the_field('texto-servicos-2'); ?></p>
               </div>
             </div>
           </div>
@@ -545,7 +494,7 @@
                 <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
               </div>
               <div class="card-body text-center">
-                <p>Lorem ipsum</p>
+                <p><?php the_field('texto-servicos-3'); ?></p>
               </div>
             </div>
           </div>
@@ -555,7 +504,7 @@
                 <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
               </div>
               <div class="card-body text-center">
-                <p>Lorem ipsum</p>
+                <p><?php the_field('texto-servicos-4'); ?></p>
               </div>
             </div>
           </div>
@@ -565,7 +514,7 @@
                 <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
               </div>
               <div class="card-body text-center">
-                <p>Lorem ipsum</p>
+                <p><?php the_field('texto-servicos-5'); ?></p>
               </div>
             </div>
           </div>

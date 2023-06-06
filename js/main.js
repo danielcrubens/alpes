@@ -132,7 +132,7 @@ $(document).ready(function () {
   });
 })
 // Obtém uma lista de todos os elementos de imagem
-const images = document.querySelectorAll('.dan img');
+const images = document.querySelectorAll('.img-random img');
 
 // Cria um array com os URLs das imagens
 const imageUrls = Array.from(images, (image) => image.src);
@@ -146,7 +146,7 @@ setInterval(() => {
   images.forEach((image, index) => {
     image.src = shuffledImageUrls[index];
   });
-}, 5000);
+}, 1000);
 
 // Função para embaralhar um array
 function shuffleArray(array) {
