@@ -42,7 +42,7 @@ register_sidebar(
     array(
         'name' => 'Barra lateral Alpes',
         'id' => 'sidebar',
-        'before_widget' => '<section class="card_category border-0 my-4 red z-depth-1">',
+        'before_widget' => '<section>',
         'after_widget' => '</section>',
 
     )

@@ -44,7 +44,7 @@
                   <h2 class="h2-responsive"><?php title_limite(); ?></h2>
                   <span class="date-post"> <?php echo get_the_date('d/m/y'); ?></span>
                 </div>
-                <p class=" py-md-4"><?php the_excerpt(); ?></p>
+                <p class=" py-md-1"><?php the_excerpt(); ?></p>
               </div>
               <div class="col-xl-4 col-md-5 mt-5 mt-md-5 sidebar d-none d-md-block">
                 <?php get_sidebar(); ?>
@@ -96,7 +96,7 @@
       <div class="col-xl-4 mt-4 col-md-5 sidebar">
         <div class="container-fluid">
           <h2 class="h2-responsive">Nossas Redes </h2>
-          <p>terdum sollicitudin erat. Nunc a ligula erat. Aliquam dolor arcu, posuere ac sapien sed, suscipit vehicula mi. Quisque eleifend diam sit amet enim dignissim eleifend.</p>
+          <p><?php the_field('texto-redes-sociais') ?></p>
           <div class=" mt-3 social-alpes">
             <a class="mr-3" href="http://" target="_blank" rel="noopener noreferrer">
               <i class="fab fa-linkedin "></i>
