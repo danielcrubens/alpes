@@ -19,8 +19,13 @@
     <div class="col-xl-11 ">
       <div class="container-fluid">
         <div class="row">
+          <div class="col-md-7">
           <h2 class="h2-responsive py-4"><?php title_limite(); ?></h2>
           <p><?php the_content(); ?></p>
+          </div>
+          <div class="col-md-5  mt-md-4">
+            <img class="img-fluid" src="<?php the_field('imagem-cases') ?>" alt="Fotos Cases Alpes">
+          </div>
         </div>
       </div>
     </div>
