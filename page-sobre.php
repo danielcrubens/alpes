@@ -25,24 +25,30 @@
           <p class="text-center"><?php the_field('texto-sobre') ?></p>
         </div>
         <div class="row">
-          <div class="col-md-4 mb-5 mb-md-0 d-flex justify-content-center d-lg-flex justify-content-lg-start">
-          <img class="img-fluid" src="<?php the_field('imagem-sobre-1'); ?>" alt="Grupo Alpes">
+          <div class="col-md-3 mb-5 mb-md-0 d-flex justify-content-center d-lg-flex justify-content-lg-start">
+            <img class="img-fluid" src="<?php the_field('imagem-sobre-1'); ?>" alt="Grupo Alpes">
           </div>
-          <div class="col-md-4 mb-5 mb-md-0 d-flex justify-content-center d-lg-flex justify-content-lg-center">
+          <div class="col-md-3 mb-5 mb-md-0 d-flex justify-content-center d-lg-flex justify-content-lg-center">
             <img class="img-fluid d-flex m-auto" src="<?php the_field('imagem-sobre-2'); ?>" alt="Grupo Alpes">
           </div>
-          <div class="col-md-4 mb-5 mb-md-0 d-flex justify-content-center d-lg-flex justify-content-lg-end">
+          <div class="col-md-3 mb-5 mb-md-0 d-flex justify-content-center d-lg-flex justify-content-lg-end">
             <img class="img-fluid d-flex ml-md-auto" src="<?php the_field('imagem-sobre-3'); ?>" alt="Grupo Alpes">
           </div>
+          <div class="col-md-3 mb-5 mb-md-0 d-flex justify-content-center d-lg-flex justify-content-lg-end">
+            <img class="img-fluid d-flex ml-md-auto" src="<?php the_field('imagem-sobre-4'); ?>" alt="Grupo Alpes">
+          </div>
           <div class="w-100 mt-md-5"></div>
-          <div class="col-md-4 mb-5 mb-md-0 d-flex justify-content-center d-lg-flex justify-content-lg-start">
-            <img class="img-fluid" src="<?php the_field('imagem-sobre-4'); ?>" alt="Grupo Alpes">
+          <div class="col-md-3 mb-5 mb-md-0 d-flex justify-content-center d-lg-flex justify-content-lg-start">
+            <img class="img-fluid" src="<?php the_field('imagem-sobre-5'); ?>" alt="Grupo Alpes">
           </div>
-          <div class="col-md-4 mb-5 mb-md-0 d-flex justify-content-center d-lg-flex justify-content-lg-center">
-            <img class="img-fluid d-flex m-auto" src="<?php the_field('imagem-sobre-5'); ?>" alt="Grupo Alpes">
+          <div class="col-md-3 mb-5 mb-md-0 d-flex justify-content-center d-lg-flex justify-content-lg-center">
+            <img class="img-fluid d-flex m-auto" src="<?php the_field('imagem-sobre-6'); ?>" alt="Grupo Alpes">
           </div>
-          <div class="col-md-4 mb-md-0 d-flex justify-content-center d-lg-flex justify-content-lg-end">
-            <img class="img-fluid d-flex ml-md-auto" src="<?php the_field('imagem-sobre-6'); ?>" alt="Grupo Alpes">
+          <div class="col-md-3 mb-md-0 d-flex justify-content-center d-lg-flex justify-content-lg-end">
+            <img class="img-fluid d-flex ml-md-auto" src="<?php the_field('imagem-sobre-7'); ?>" alt="Grupo Alpes">
+          </div>
+          <div class="col-md-3 mb-5 mb-md-0 d-flex justify-content-center d-lg-flex justify-content-lg-end">
+            <img class="img-fluid d-flex ml-md-auto" src="<?php the_field('imagem-sobre-8'); ?>" alt="Grupo Alpes">
           </div>
         </div>
       </div>
