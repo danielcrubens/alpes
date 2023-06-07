@@ -219,7 +219,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-11 red col-md-11 h-100 m-auto scroll-down">
+        <div class="col-xl-11 col-md-11 h-100 m-auto scroll-down">
           <div class="container-fluid">
             <div class="row d-none d-flex my-5">
               <div class="col-xl-3 col-6 col-md-3 d-lg-flex b-right p-1 py-1">

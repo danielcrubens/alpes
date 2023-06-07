@@ -131,6 +131,11 @@ $(document).ready(function () {
     }
   });
 })
+const hamburger = document.querySelector("#nav-icon");
+hamburger.addEventListener("click", function () {
+  document.querySelector(".side-nav-list").classList.toggle("slide-in");
+  document.querySelector(".hamburger").classList.toggle("close-nav");
+});
 // Obtém uma lista de todos os elementos de imagem
 const images = document.querySelectorAll('.img-random img');
 
@@ -187,11 +192,7 @@ toggleButton.addEventListener('click', () => {
 });
 
 
-const hamburger = document.querySelector("#nav-icon");
-hamburger.addEventListener("click", function () {
-  document.querySelector(".side-nav-list").classList.toggle("slide-in");
-  document.querySelector(".hamburger").classList.toggle("close-nav");
-});
+
 
 
 const redDot = () => {
