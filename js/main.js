@@ -131,19 +131,7 @@ $(document).ready(function () {
     }
   });
 })
-$(document).ready(function () {
-window.addEventListener('scroll', () => {
-  const scrollSection = document.getElementById('scroll-section');
-  const scrollPosition = window.scrollY;
-  const triggerPosition = 300;
 
-  if (scrollPosition >= triggerPosition) {
-    scrollSection.classList.add('hide-section');
-  } else {
-    scrollSection.classList.remove('hide-section');
-  }
-});
-})
 
 const hamburger = document.querySelector("#nav-icon");
 hamburger.addEventListener("click", function () {

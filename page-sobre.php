@@ -15,11 +15,7 @@
         </div>
       </div>
     </div>
-
   </section>
-  <?php get_template_part('template-parts/content', 'scroll'); ?>
-
-  
 
   <section class="white-dark bg-cloud-overlay">
     <div class="bg-cloud "></div>

@@ -148,18 +148,7 @@ body,
   right: 0;
   margin: 0 auto;
 }
-.position-scroll {
-  @include sm {
-    right: 0;
-  }
-  position: absolute;
-  top: auto;
-  /* width: 13rem; */
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  bottom: 0;
-}
+
 .w-img {
   width: 5rem;
 }
