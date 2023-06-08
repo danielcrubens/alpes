@@ -1,4 +1,5 @@
 .news-single-alpes {
+  
   p,
   li,
   ul,
@@ -135,4 +136,15 @@
       background-position: bottom;
     }
   }
+  .fixed-cases {
+    position: sticky;
+    top:2rem;
+    height: auto;
+    display: block;
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
 }

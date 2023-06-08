@@ -131,6 +131,20 @@ $(document).ready(function () {
     }
   });
 })
+$(document).ready(function () {
+window.addEventListener('scroll', () => {
+  const scrollSection = document.getElementById('scroll-section');
+  const scrollPosition = window.scrollY;
+  const triggerPosition = 300;
+
+  if (scrollPosition >= triggerPosition) {
+    scrollSection.classList.add('hide-section');
+  } else {
+    scrollSection.classList.remove('hide-section');
+  }
+});
+})
+
 const hamburger = document.querySelector("#nav-icon");
 hamburger.addEventListener("click", function () {
   document.querySelector(".side-nav-list").classList.toggle("slide-in");
@@ -151,7 +165,7 @@ setInterval(() => {
   images.forEach((image, index) => {
     image.src = shuffledImageUrls[index];
   });
-}, 1000);
+}, 8000);
 
 // Função para embaralhar um array
 function shuffleArray(array) {

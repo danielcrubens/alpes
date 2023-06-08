@@ -5,7 +5,7 @@
 <main class="front-page">
 
   <section class="d-flex justify-content-center m-auto align-items-center mt-5">
-  <?php get_template_part('template-parts/content', 'alpes-logo'); ?>
+    <?php get_template_part('template-parts/content', 'alpes-logo'); ?>
   </section>
   <section class=" bg-alpes d-flex justify-content-center m-auto align-items-center">
     <div class="col-xl-11">
@@ -15,16 +15,11 @@
         </div>
       </div>
     </div>
+    <?php get_template_part('template-parts/content', 'scroll'); ?>
   </section>
 
-  <!--  <section class="d-flex justify-content-center m-auto align-items-center mt-5">
-    <div class=" position-scroll ">
-      <span class="mouse">
-        <span class="move"></span>
-      </span>
-      <p class="text-center white-text"><small>scroll</small></p>
-    </div>
-  </section> -->
+
+
 
   <section class="pt-5 come-alpes d-md-block d-none">
     <div class="col-12 py-md-5">
@@ -180,25 +175,25 @@
                       <div class="container-fluid">
                         <div class='front-container'>
                           <div class='small'>
-                          <img src="<?php the_field('imagem-masonry-1.1'); ?>" alt="Masonry Grupo Alpes">
+                            <img src="<?php the_field('imagem-masonry-1.1'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='small'>
-                          <img src="<?php the_field('imagem-masonry-1.2'); ?>" alt="Masonry Grupo Alpes">
+                            <img src="<?php the_field('imagem-masonry-1.2'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='small'>
-                          <img src="<?php the_field('imagem-masonry-1.3'); ?>" alt="Masonry Grupo Alpes">
+                            <img src="<?php the_field('imagem-masonry-1.3'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='large'>
-                          <img src="<?php the_field('imagem-masonry-1.4'); ?>" alt="Masonry Grupo Alpes">
+                            <img src="<?php the_field('imagem-masonry-1.4'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='medium'>
-                          <img src="<?php the_field('imagem-masonry-1.5'); ?>" alt="Masonry Grupo Alpes">
+                            <img src="<?php the_field('imagem-masonry-1.5'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='large'>
-                          <img src="<?php the_field('imagem-masonry-1.6'); ?>" alt="Masonry Grupo Alpes">
+                            <img src="<?php the_field('imagem-masonry-1.6'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                           <div class='small'>
-                          <img src="<?php the_field('imagem-masonry-1.7'); ?>" alt="Masonry Grupo Alpes">
+                            <img src="<?php the_field('imagem-masonry-1.7'); ?>" alt="Masonry Grupo Alpes">
                           </div>
                         </div>
                       </div>
@@ -446,12 +441,12 @@
   <section class="bravery-alpes d-flex justify-content-center py-5">
     <div class="col-xl-11">
       <div class="container-fluid">
-       
+
         <div class="row">
           <div class="col col m-auto d-none d-md-block scroll-down">
             <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
               <div class="circle-hover rounded-circle overlay zoom">
-                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
+                <img loading="lazy" class="img-fluid overlay zoom" src="<?php the_field('imagem-icone-casa') ?>" alt=" Ícone Casa">
               </div>
               <div class="card-body text-center">
                 <p><?php the_field('texto-servicos-1'); ?></p>
@@ -461,7 +456,7 @@
           <div class="col-6 m-auto d-md-none d-block">
             <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
               <div class="circle-hover rounded-circle overlay zoom">
-                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
+                <img loading="lazy" class="img-fluid overlay zoom" src="<?php the_field('imagem-icone-casa') ?>" alt=" Ícone Casa">
               </div>
               <div class="card-body text-center">
                 <p><?php the_field('texto-servicos-1'); ?></p>
@@ -471,7 +466,7 @@
           <div class="col-6 m-auto d-md-none d-block">
             <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
               <div class="circle-hover rounded-circle overlay zoom">
-                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/mosquetao.svg" alt="Mosquetão">
+                <img loading="lazy" class="img-fluid overlay zoom" src="<?php the_field('imagem-icone-mosquetao') ?>" alt=" Ícone Mosquetão">
               </div>
               <div class="card-body text-center">
                 <p><?php the_field('texto-servicos-2'); ?></p>
@@ -481,7 +476,7 @@
           <div class="col col m-auto d-none d-md-block scroll-down-delay-1">
             <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
               <div class="circle-hover rounded-circle overlay zoom">
-                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/mosquetao.svg" alt="Casa">
+                <img loading="lazy" class="img-fluid overlay zoom" src="<?php the_field('imagem-icone-mosquetao') ?>" alt=" Ícone Mosquetão">
               </div>
               <div class="card-body text-center">
                 <p><?php the_field('texto-servicos-2'); ?></p>
@@ -491,7 +486,7 @@
           <div class="col m-auto scroll-down-delay-2">
             <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
               <div class="circle-hover rounded-circle overlay zoom">
-                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
+                <img loading="lazy" class="img-fluid overlay zoom" src="<?php the_field('imagem-icone-bota') ?>" alt=" Ícone Bota">
               </div>
               <div class="card-body text-center">
                 <p><?php the_field('texto-servicos-3'); ?></p>
@@ -501,7 +496,7 @@
           <div class="col m-auto scroll-down-delay-3">
             <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
               <div class="circle-hover rounded-circle overlay zoom">
-                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
+                <img loading="lazy" class="img-fluid overlay zoom" src="<?php the_field('imagem-icone-mochila') ?>" alt=" Ícone Mochila">
               </div>
               <div class="card-body text-center">
                 <p><?php the_field('texto-servicos-4'); ?></p>
@@ -511,7 +506,7 @@
           <div class="col m-auto scroll-down-delay-4">
             <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
               <div class="circle-hover rounded-circle overlay zoom">
-                <img loading="lazy" class="img-fluid overlay zoom" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/casa.svg" alt="Casa">
+                <img loading="lazy" class="img-fluid overlay zoom" src="<?php the_field('imagem-icone-corda') ?>" alt=" Ícone Corda">
               </div>
               <div class="card-body text-center">
                 <p><?php the_field('texto-servicos-5'); ?></p>

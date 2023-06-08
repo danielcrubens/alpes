@@ -19,17 +19,34 @@
     <div class="col-xl-11 ">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-7">
-          <h2 class="h2-responsive py-4"><?php title_limite(); ?></h2>
+          <div class="col-md-7 custom-post">
+          <h2 class="h2-responsive pt-5"><?php title_limite(); ?></h2>
           <p><?php the_content(); ?></p>
           </div>
-          <div class="col-md-5  mt-md-4">
-            <img class="img-fluid" src="<?php the_field('imagem-cases') ?>" alt="Fotos Cases Alpes">
+          <div class="col-md-5  mt-md-4 ">
+            <div class="fixed-cases ">
+            <img class="img-fluid pt-5 pb-4" src="<?php the_field('imagem-cases-1') ?>" alt="Fotos Cases Alpes">
+            <img class="img-fluid pt-5 pb-4" src="<?php the_field('imagem-cases-2') ?>" alt="Fotos Cases Alpes">
+          </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 </section>
+<style>
+ 
+
+
+
+
+
+</style>
+<script>
+
+
+
+
+</script>
 
 <?php get_footer(); ?>
