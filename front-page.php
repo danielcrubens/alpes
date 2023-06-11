@@ -7,6 +7,7 @@
   <section class="d-flex justify-content-center m-auto align-items-center mt-5">
     <?php get_template_part('template-parts/content', 'alpes-logo'); ?>
   </section>
+
   <section class=" bg-alpes d-flex justify-content-center m-auto align-items-center">
     <div class="col-xl-11">
       <div class="container-fluid">
@@ -15,14 +16,10 @@
         </div>
       </div>
     </div>
-    <?php get_template_part('template-parts/content', 'scroll'); ?>
   </section>
 
-
-
-
   <section class="pt-5 come-alpes d-md-block d-none">
-    <div class="col-12 py-md-5">
+    <div class="col-12 pt-md-5">
       <div class="container-fluid">
         <div class="timeline-scroll d-none d-md-block">
           <div class="items">
@@ -278,7 +275,7 @@
               </div>
             </div>
 
-            <div class="d-flex m-auto my-md-5 scroll-down">
+            <div class="d-flex m-auto mt-md-5 scroll-down">
               <div class="py-5">
                 <a href="<?php echo esc_url(home_url('/')); ?>noticias" class="btn-alpes m-auto px-md-5">VEJA MAIS</a>
               </div>
@@ -288,24 +285,17 @@
       </div>
     </div>
 
-    <section class="bg-mountain d-flex justify-content-center m-auto">
-      <div class="col-10 mt-4">
-        <div class="container-fluid">
-          <h2 class="text-center h2-responsive scroll-down">DECIDIMOS COMBINAR NOSSAS EXPERTISES PARA JUNTOS MOSTRARMOS O HORIZONTE</h2>
-          <img loading="lazy" class="img-fluid d-flex m-auto scroll-down" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
-          <div class="position-text mb-4">
-            <h2 class="text-center h2-responsive scroll-down">DEPENDE MUITO MAIS DE ESTRATÉGIA DO QUE DE BRAVURA</h2>
-            <img loading="lazy" class="img-fluid d-flex m-auto scroll-down" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
-          </div>
+  </section>
+  <section class="bg-mountain d-none d-lg-block">
+    <div class="parallax-image">
+      <img class="img-fluid object-fit" src="https://cdn.discordapp.com/attachments/841400428134662155/1116129528838901851/bg-mountain.webp" alt="" />
+      <div class="position-text">
+        <h2 class="text-center h2-responsive scroll-down">DECIDIMOS COMBINAR NOSSAS EXPERTISES PARA JUNTOS MOSTRARMOS O HORIZONTE</h2>
+        <img loading="lazy" class="img-fluid d-flex m-auto scroll-down" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
 
-        </div>
-
-      </div>
-
-    </section>
   </section>
 
-  <section class=" come-alpes d-md-none d-block">
+  <section class="come-alpes d-md-none d-block">
     <div class="col-11 py-md-5 m-auto">
       <div class="container-fluid pt-md-5">
         <div class="py-md-5 pt-5">
@@ -441,7 +431,8 @@
   <section class="bravery-alpes d-flex justify-content-center py-5">
     <div class="col-xl-11">
       <div class="container-fluid">
-
+      <h2 class="text-center h2-responsive scroll-down">DEPENDE MUITO MAIS DE ESTRATÉGIA DO QUE DE BRAVURA</h2>
+        <img loading="lazy" class="img-fluid d-flex m-auto scroll-down w-auto pb-5" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
         <div class="row">
           <div class="col col m-auto d-none d-md-block scroll-down">
             <div class="d-flex  py-3 flex-column justify-content-center align-items-center">
@@ -538,6 +529,16 @@
   </section>
 
 </main>
+
+
+
+
+
+
+
+
+
+
 
 <?php
 get_footer();

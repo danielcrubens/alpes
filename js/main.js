@@ -131,6 +131,39 @@ $(document).ready(function () {
     }
   });
 })
+window.addEventListener('load', () => {
+  function parallax() {
+    const parallaxImages = document.querySelectorAll('.parallax-image');
+
+    parallaxImages.forEach((parallaxImage) => {
+      const img = parallaxImage.querySelector('img');
+      const windowTop = window.pageYOffset;
+      const windowHeight = window.innerHeight;
+      const windowBottom = windowTop + windowHeight;
+      const imageTop = parallaxImage.offsetTop;
+      const imageHeight = parallaxImage.offsetHeight;
+      const imageBottom = imageTop + imageHeight;
+
+      if (!(imageTop > windowBottom || imageBottom < windowTop)) {
+        const sub = imageTop - windowTop;
+        if (sub >= 0) {
+          img.style.transform = `scaleX(${sub / 2100 + 1})`;
+          img.style.width = '100vw';
+        } else {
+          img.style.transform = `scaleX(1) translateY(${-sub / 2}px)`;
+        }
+      }
+    });
+  }
+
+  parallax();
+  window.addEventListener('scroll', () => {
+    parallax();
+  });
+  window.addEventListener('resize', () => {
+    parallax();
+  });
+});
 
 
 const hamburger = document.querySelector("#nav-icon");
