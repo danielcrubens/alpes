@@ -42,7 +42,7 @@
                 </a>
               </li>
               <li class="mx-xl-4 mx-1">
-                <a href="<?php echo esc_url(home_url('/')); ?>empresas">empresas
+                <a href="<?php echo esc_url(home_url('/')); ?>servicos">serviços
                   <span class="hover-line"></span>
                 </a>
               </li>
@@ -92,7 +92,7 @@
                 </a>
               </li>
               <li class="pb-3">
-                <a href="<?php echo esc_url(home_url('/')); ?>empresas">empresas
+                <a href="<?php echo esc_url(home_url('/')); ?>servicos">serviços
                   <span class="hover-line"></span>
                 </a>
               </li>

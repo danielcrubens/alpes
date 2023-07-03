@@ -207,28 +207,22 @@ function shuffleArray(array) {
 
   return array;
 }
-
 const toggleButton = document.querySelector('#toggleButton');
+const frontContainer = document.querySelector('.front-container');
 const toggleIcon = document.querySelector('#toggleIcon');
-const gridContainer = document.querySelector('#gridContainer');
-const grid1 = document.querySelector('#masonry1');
-const grid2 = document.querySelector('#masonry2');
+const isOpen = true;
 
-toggleButton.addEventListener('click', () => {
-  const isGrid1Hidden = grid1.classList.contains('hidden');
-
-  gridContainer.style.height = isGrid1Hidden ? '' : gridContainer.offsetHeight + 'px';
-  grid1.classList.toggle('hidden');
-  grid1.classList.toggle('visible');
-  grid2.classList.toggle('hidden');
-  grid2.classList.toggle('visible');
-  toggleIcon.classList.toggle('fa-times', !isGrid1Hidden);
-  toggleIcon.classList.toggle('fa-hand-point-up', isGrid1Hidden);
+toggleButton.addEventListener('click', ()=> {
+  if (frontContainer.style.gap === '0px') {
+    frontContainer.style.gap = '50px';
+    toggleIcon.className = 'fas fa-hand-point-up';
+    isOpen = true;
+  } else {
+    frontContainer.style.gap = '0';
+    toggleIcon.className = 'fas fa-times';
+    isOpen = false;
+  }
 });
-
-
-
-
 
 const redDot = () => {
   const rows = Array.from(document.querySelectorAll(".timeline-scroll .items > .item"));

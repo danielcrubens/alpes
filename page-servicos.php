@@ -1,5 +1,5 @@
 <?php
-/*Template Name: Empresas */
+/*Template Name: Serviços */
 ?>
 <?php get_header(); ?>
 <section class="companies-alpes">
@@ -11,7 +11,7 @@
     <div class="col-xl-11">
       <div class="container-fluid">
         <div class="row d-flex justify-content-center">
-          <h1 id="scroll-heading" class="text-center h1-responsive scroll-top">EMPRESAS</h1>
+          <h1 id="scroll-heading" class="text-center h1-responsive scroll-top">SERVIÇOS</h1>
         </div>
       </div>
     </div>

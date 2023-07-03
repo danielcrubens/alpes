@@ -136,13 +136,13 @@ function remove_form_fragment($url)
 
 function create_post_types()
 {
-    // Registrar o tipo de post "empresas"
+    // Registrar o tipo de post "serviços"
     register_post_type(
-        'empresas',
+        'serviços',
         array(
             'labels' => array(
-                'name' => __('Empresas'),
-                'singular_name' => __('Empresas')
+                'name' => __('Serviços'),
+                'singular_name' => __('Serviços')
             ),
             'supports' => array(
                 'title', 'editor', 'thumbnail', 'excerpt'
@@ -151,7 +151,7 @@ function create_post_types()
             'has_archive' => true,
             'menu_position' => 3,
             'menu_icon' => 'dashicons-groups',
-            'rewrite' => array('slug' => 'empresas'),
+            'rewrite' => array('slug' => 'servicos'),
         )
     );
 

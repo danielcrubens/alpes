@@ -135,63 +135,90 @@
                   <i id="toggleIcon" class="fas fa-hand-point-up"></i>
                 </button>
               </div>
-              <div class="col-11 m-auto red">
-
+              <div class="col-11 m-auto">
                 <div class="container-fluid h-100 d-flex justify-content-center align-items-center">
                   <div id="gridContainer">
-
-                    <div id="masonry1" class="grid-masonry visible">
+                    <div id="masonry" >
                       <div class="container-fluid">
                         <div class='front-container'>
-                          <div class='small scroll-down-delay-1'>
-                            <img src="<?php the_field('imagem-masonry-1.1'); ?>" alt="Masonry Grupo Alpes">
-                          </div>
-                          <div class='small scroll-down-delay-1'>
-                            <img src="<?php the_field('imagem-masonry-1.2'); ?>" alt="Masonry Grupo Alpes">
-                          </div>
-                          <div class='small scroll-down-delay-1'>
-                            <img src="<?php the_field('imagem-masonry-1.3'); ?>" alt="Masonry Grupo Alpes">
-                          </div>
-                          <div class='large scroll-down-delay-1'>
-                            <img src="<?php the_field('imagem-masonry-1.4'); ?>" alt="Masonry Grupo Alpes">
-                          </div>
-                          <div class='medium scroll-down-delay-1'>
-                            <img src="<?php the_field('imagem-masonry-1.5'); ?>" alt="Masonry Grupo Alpes">
-                          </div>
-                          <div class='large scroll-down-delay-1'>
-                            <img src="<?php the_field('imagem-masonry-1.6'); ?>" alt="Masonry Grupo Alpes">
-                          </div>
-                          <div class='small scroll-down-delay-1'>
-                            <img src="<?php the_field('imagem-masonry-1.7'); ?>" alt="Masonry Grupo Alpes">
-                          </div>
-                        </div>
-                      </div>
-                    </div>
 
-                    <div id="masonry2" class="grid-masonry hidden">
-                      <div class="container-fluid">
-                        <div class='front-container'>
-                          <div class='small'>
-                            <img src="<?php the_field('imagem-masonry-1.1'); ?>" alt="Masonry Grupo Alpes">
-                          </div>
-                          <div class='small'>
-                            <img src="<?php the_field('imagem-masonry-1.2'); ?>" alt="Masonry Grupo Alpes">
-                          </div>
-                          <div class='small'>
-                            <img src="<?php the_field('imagem-masonry-1.3'); ?>" alt="Masonry Grupo Alpes">
-                          </div>
-                          <div class='large'>
-                            <img src="<?php the_field('imagem-masonry-1.4'); ?>" alt="Masonry Grupo Alpes">
-                          </div>
-                          <div class='medium'>
-                            <img src="<?php the_field('imagem-masonry-1.5'); ?>" alt="Masonry Grupo Alpes">
-                          </div>
-                          <div class='large'>
-                            <img src="<?php the_field('imagem-masonry-1.6'); ?>" alt="Masonry Grupo Alpes">
-                          </div>
-                          <div class='small'>
-                            <img src="<?php the_field('imagem-masonry-1.7'); ?>" alt="Masonry Grupo Alpes">
-                          </div>
+                          <a href="<?php the_field('masonry-url-1.1'); ?>" class="small item-hover">
+                            <span class="scroll-down-delay-1">
+                              <img src="<?php the_field('imagem-masonry-1.1'); ?>" alt="Masonry Grupo Alpes">
+                              <div class="overlay-hover fade-overlay">
+                                <p class="text-hover">
+                                  Lorem ipsum dolor sit amet consectetur consectetur
+                                </p>
+                              </div>
+                            </span>
+                          </a>
+
+                          <a href="<?php the_field('masonry-url-1.2'); ?>" class="small item-hover">
+                            <span class="scroll-down-delay-1">
+                              <img src="<?php the_field('imagem-masonry-1.2'); ?>" alt="Masonry Grupo Alpes">
+                              <div class="overlay-hover fade-overlay">
+                                <p class="text-hover">
+                                  Lorem ipsum dolor sit amet consectetur consectetur
+                                </p>
+                              </div>
+                            </span>
+                          </a>
+
+                          <a href="<?php the_field('masonry-url-1.3'); ?>" class="small item-hover">
+                            <span class="scroll-down-delay-1">
+                              <img src="<?php the_field('imagem-masonry-1.3'); ?>" alt="Masonry Grupo Alpes">
+                              <div class="overlay-hover fade-overlay">
+                                <p class="text-hover">
+                                  Lorem ipsum dolor sit amet consectetur consectetur
+                                </p>
+                              </div>
+                            </span>
+                          </a>
+
+                          <a href="<?php the_field('masonry-url-1.4'); ?>" class="large item-hover">
+                            <span class="scroll-down-delay-1">
+                              <img src="<?php the_field('imagem-masonry-1.4'); ?>" alt="Masonry Grupo Alpes">
+                              <div class="overlay-hover fade-overlay">
+                                <p class="text-hover">
+                                  Lorem ipsum dolor sit amet consectetur consectetur
+                                </p>
+                              </div>
+                            </span>
+                          </a>
+
+                          <a href="<?php the_field('masonry-url-1.5'); ?>" class="medium item-hover">
+                            <span class="scroll-down-delay-1">
+                              <img src="<?php the_field('imagem-masonry-1.5'); ?>" alt="Masonry Grupo Alpes">
+                              <div class="overlay-hover fade-overlay">
+                                <p class="text-hover">
+                                  Lorem ipsum dolor sit amet consectetur consectetur
+                                </p>
+                              </div>
+                            </span>
+                          </a>
+
+                          <a href="<?php the_field('masonry-url-1.6'); ?>" class="large item-hover">
+                            <span class="scroll-down-delay-1">
+                              <img src="<?php the_field('imagem-masonry-1.6'); ?>" alt="Masonry Grupo Alpes">
+                              <div class="overlay-hover fade-overlay">
+                                <p class="text-hover">
+                                  Lorem ipsum dolor sit amet consectetur consectetur
+                                </p>
+                              </div>
+                            </span>
+                          </a>
+                          
+                          <a href="<?php the_field('masonry-url-1.7'); ?>" class="small item-hover">
+                            <span class="scroll-down-delay-1">
+                              <img src="<?php the_field('imagem-masonry-1.7'); ?>" alt="Masonry Grupo Alpes">
+                              <div class="overlay-hover fade-overlay">
+                                <p class="text-hover">
+                                  Lorem ipsum dolor sit amet consectetur consectetur
+                                </p>
+                              </div>
+                            </span>
+                          </a>
+
                         </div>
                       </div>
                     </div>
@@ -431,7 +458,7 @@
   <section class="bravery-alpes d-flex justify-content-center py-5">
     <div class="col-xl-11">
       <div class="container-fluid">
-      <h2 class="text-center h2-responsive scroll-down">DEPENDE MUITO MAIS DE ESTRATÉGIA DO QUE DE BRAVURA</h2>
+        <h2 class="text-center h2-responsive scroll-down">DEPENDE MUITO MAIS DE ESTRATÉGIA DO QUE DE BRAVURA</h2>
         <img loading="lazy" class="img-fluid d-flex m-auto scroll-down w-auto pb-5" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/svg/logo-alpes-small.svg" alt="Logo Alpes">
         <div class="row">
           <div class="col col m-auto d-none d-md-block scroll-down">
@@ -529,13 +556,6 @@
   </section>
 
 </main>
-
-
-
-
-
-
-
 
 
 

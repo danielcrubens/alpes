@@ -136,20 +136,17 @@
   }
 
   .bg-mountain {
- 
     .parallax-image {
-         &::before{
-          content: url(../assets/imagens/cloud-top.webp);
-          background-position: center;
-          background-attachment: fixed;
-          position: absolute;
-          top: -10rem;
-          background-size: auto;
-          left: -21rem;
-          animation: floatCloud 7s ease-in-out infinite alternate;
-     
- 
-    }
+      &::before {
+        content: url(../assets/imagens/cloud-top.webp);
+        background-position: center;
+        background-attachment: fixed;
+        position: absolute;
+        top: -10rem;
+        background-size: auto;
+        left: -21rem;
+        animation: floatCloud 7s ease-in-out infinite alternate;
+      }
       width: 100%;
       overflow: hidden;
       position: relative;
@@ -160,13 +157,13 @@
           width: 100%;
           height: 100%;
           display: block;
-          @include xl3{
+          @include xl3 {
             display: none;
           }
         }
       }
     }
-    
+
     .position-text {
       position: absolute;
       text-align: center;
@@ -177,8 +174,6 @@
         height: auto;
       }
     }
-    
-    
   }
   .bravery-alpes {
     background: $dark-blue;
@@ -249,6 +244,7 @@
   width: 0;
   position: relative;
   .container-button {
+    z-index: 999;
     position: absolute;
     left: 0;
     top: 28.7rem;
@@ -280,36 +276,15 @@
       }
     }
   }
-  #gridContainer {
-    transition: height 9s;
-  }
-  .grid-masonry {
-    transition: transform 1.99s, opacity 0.9s;
-    transform-origin: center center;
-  }
-  #masonry1,
-  #masonry2 {
+
+  #masonry {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -999;
   }
-  #masonry2.visible .front-container {
-    grid-gap: 0;
-  }
-  .grid-masonry {
-    transition: transform 1.99s, opacity 0.9s;
-    transform-origin: center center;
-  }
-  .grid-masonry.hidden {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-  .hidden {
-    opacity: 0;
-  }
+
   .front-container {
     width: 80vw;
     margin: 3em auto;
@@ -323,13 +298,14 @@
       width: 83vw;
       margin: 0 auto;
     }
+    img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+    }
   }
-  .front-container img {
-    width: 100%;
-    height: auto;
-    -o-object-fit: cover;
-    object-fit: cover;
-  }
+
   .large,
   .medium,
   .small {
@@ -337,6 +313,7 @@
     height: auto;
     width: auto;
     grid-column: auto / span 1;
+    z-index: 1;
   }
   .large {
     grid-row: span 4;
@@ -347,4 +324,44 @@
   .small {
     grid-row: span 2;
   }
+  .overlay-hover {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8)  ;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    transition: .5s ease;
+  }
+  .item-hover {
+    position: relative;
+    overflow: hidden;
+    &:hover {
+      .fade-overlay {
+        opacity: 1;
+      }
+    }
+  }
+  .fade-overlay {
+    height: 100%;
+    opacity: 0;
+  }
+  
+  .text-hover {
+    color: $white;
+    width: 100%;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 }
+
+
+ 
