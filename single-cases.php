@@ -34,19 +34,4 @@
     </div>
   </section>
 </section>
-<style>
- 
-
-
-
-
-
-</style>
-<script>
-
-
-
-
-</script>
-
 <?php get_footer(); ?>

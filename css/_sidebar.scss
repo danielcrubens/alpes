@@ -21,7 +21,10 @@
   }
 }
 .sidebar-single{
-  height: auto;
+  position: sticky;
+  top:5rem;
+  height: 100%;
+  display: block;
  
   h2{
     font-family: "Open Sans", sans-serif;

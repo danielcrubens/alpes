@@ -34,7 +34,7 @@ add_image_size('mini-thumb', 190, 90, true);
 
 // Definir o tamanho o resumo
 add_filter('excerpt_length', function ($length) {
-    return 25;
+    return 15;
 });
 
 
