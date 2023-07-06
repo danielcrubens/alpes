@@ -5,7 +5,7 @@
 <?php get_header(); ?>
 <section class="news-alpes">
   <section class="d-flex justify-content-center m-auto align-items-center mt-5">
-  <?php get_template_part('template-parts/content', 'alpes-logo'); ?>
+    <?php get_template_part('template-parts/content', 'alpes-logo'); ?>
   </section>
 
   <section class=" bg-alpes d-flex justify-content-center m-auto align-items-center">
@@ -41,13 +41,18 @@
                   <?php the_post_thumbnail('post-thumbnail', array('class' => 'img-fluid')); ?>
                 </a>
                 <div class="d-flex justify-content-between align-items-center mt-3">
-                  <h2 class="h2-responsive"><?php title_limite(); ?></h2>
+                  <a href="<?php the_permalink(); ?>">
+                    <h2 class="h2-responsive"><?php title_limite(); ?></h2>
+                  </a>
                   <span class="date-post"> <?php echo get_the_date('d/m/y'); ?></span>
                 </div>
-                <p class=" py-md-1"><?php the_excerpt(); ?></p>
+                <a href="<?php the_permalink(); ?>">
+                  <p class=" py-md-1"><?php the_excerpt(); ?></p>
+                </a>
               </div>
-              <div class="col-xl-4 col-md-5 mt-5 mt-md-5 sidebar d-none d-md-block">
-                <?php get_sidebar(); ?>
+              <div class="col-xl-4 col-md-5 mt-5 mt-md-5 sidebar menu d-none d-md-block">
+  
+                  <?php get_sidebar(); ?>
               </div>
           <?php endwhile;
           endif; ?>
@@ -128,4 +133,47 @@
 
 </section>
 
+
+<style>
+  .menu.sticky {
+    position: sticky;
+    top: 5rem;
+    transition: top 0.3s ease-in-out;
+}
+</style>
+
+<script>
+var menu = document.querySelector('.menu');
+var menuTop = menu.offsetTop;
+
+function checkSticky() {
+  var windowTop = window.pageYOffset || document.documentElement.scrollTop;
+  var screenHeight = window.innerHeight;
+
+  if (window.innerWidth >= 1920) {
+    // Tela "xl" (extra larga)
+    if (windowTop >= menuTop + 1440) {
+      menu.classList.add('sticky');
+      menu.style.transition = 'none';
+    } else {
+      menu.classList.remove('sticky');
+      menu.style.transition = 'top 0.3s ease-in-out';
+    }
+  } else {
+    // Tela "lg" (larga)
+    if (windowTop <= menuTop + 950) {
+      menu.classList.add('sticky');
+      menu.style.transition = 'none';
+    } else {
+      menu.classList.remove('sticky');
+      menu.style.transition = 'top 0.3s ease-in-out';
+    }
+  }
+}
+
+window.addEventListener('scroll', checkSticky);
+window.addEventListener('resize', checkSticky);
+
+
+</script>
 <?php get_footer();

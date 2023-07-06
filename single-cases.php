@@ -2,7 +2,7 @@
 
 <section class="news-single-alpes">
   <section class="d-flex justify-content-center m-auto align-items-center mt-5">
-  <?php get_template_part('template-parts/content', 'alpes-logo'); ?>
+    <?php get_template_part('template-parts/content', 'alpes-logo'); ?>
   </section>
 
   <section class=" bg-alpes d-flex justify-content-center m-auto align-items-center">
@@ -20,14 +20,15 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-7 custom-post">
-          <h2 class="h2-responsive pt-5"><?php title_limite(); ?></h2>
-          <p><?php the_content(); ?></p>
+            <h2 class="h2-responsive pt-5"><?php title_limite(); ?></h2>
+            <p><?php the_content(); ?></p>
           </div>
           <div class="col-md-5  mt-md-4 ">
             <div class="fixed-cases ">
-            <img class="img-fluid pt-5 pb-4" src="<?php the_field('imagem-cases-1') ?>" alt="Fotos Cases Alpes">
-            <img class="img-fluid pt-5 pb-4" src="<?php the_field('imagem-cases-2') ?>" alt="Fotos Cases Alpes">
-          </div>
+              <aside class="sidebar-cases pt-5">
+                <?php dynamic_sidebar('sidebar-cases'); ?>
+              </aside>
+            </div>
           </div>
         </div>
       </div>
