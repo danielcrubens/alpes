@@ -48,6 +48,14 @@ register_sidebar(
     )
 );
 
+register_sidebar(
+    array(
+        'name' => 'Barra lateral Cases',
+        'id' => 'sidebar-cases',
+        'before_widget' => '<aside>',
+        'after_widget' => '</aside>',
+    )
+);
 //Limita os caracteres do titulo no post inicial
 function title_limite($len = 55, $post_id = null)
 {
