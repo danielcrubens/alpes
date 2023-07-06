@@ -36,12 +36,18 @@ $h2-md: 170%;
   }
 }
 @mixin xl2 {
-  @media(min-width: 992px) and (max-width: 1535px) {
+  @media(min-width: 992px) and (max-width: 1024px ) {
     @content;
   }
 }
 @mixin xl3 {
-  @media (min-width: 1536px) and (max-width: 1921px) {
+  @media(min-width: 1440px) and (max-width: 1535px ) {
+    @content;
+  }
+}
+
+@mixin xl4 {
+  @media (min-width: 1536px ) and (max-width: 2560px) {
     @content;
   }
 }
@@ -103,6 +109,15 @@ body,
   @include sm {
     background-size: cover!important;
     background-attachment: fixed;
+  }
+  @include md{
+    background-position: top;
+  }
+  @include xl2{
+    background-position: top;
+  }
+  @include xl3{
+    background-position: center;
   }
   background-image: url(../assets//imagens/bg-alpes.webp);
   background-size: 100%;

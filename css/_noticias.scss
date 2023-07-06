@@ -22,7 +22,7 @@
       @include md {
         background-image: none;
       }
-      @include xl3 {
+      @include xl4 {
         width: 66%;
       }
     }
@@ -117,8 +117,7 @@
     .date-post{
       font-family: "Open Sans", sans-serif;
       font-weight: 700;
-
-
+      color: $text-dark-blue;
     }
   }
   .overlay-bottom {
