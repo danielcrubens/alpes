@@ -9,7 +9,7 @@
   <?php wp_site_icon(); ?>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <link rel="stylesheet" href="<?php echo esc_url(get_template_directory_uri()); ?>/css/bootstrap.min.css">
@@ -24,6 +24,15 @@
   <?php wp_body_open(); ?>
 
   <header>
+    <div class="breadcrumbs  d-flex justify-content-center align-items-end ">
+      <?php
+      if (function_exists('bcn_display')) {
+        bcn_display();
+      } ?>
+    </div>
+    
+
+
     <nav class=" navbar navbar-expand-lg fixed-top scrolling-navbar d-none d-lg-block">
       <div class="col-xl-12 d-lg-flex justify-content-center m-auto align-items-center ">
         <div class="container-fluid py-3">
@@ -42,7 +51,7 @@
                 </a>
               </li>
               <li class="mx-xl-4 mx-1">
-                <a href="<?php echo esc_url(home_url('/')); ?>servicos">serviços
+                <a href="<?php echo esc_url(home_url('/')); ?>empresas">Empresas
                   <span class="hover-line"></span>
                 </a>
               </li>
@@ -92,7 +101,7 @@
                 </a>
               </li>
               <li class="pb-3">
-                <a href="<?php echo esc_url(home_url('/')); ?>servicos">serviços
+                <a href="<?php echo esc_url(home_url('/')); ?>empresas">Empresas
                   <span class="hover-line"></span>
                 </a>
               </li>
