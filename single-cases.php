@@ -24,7 +24,7 @@
             <p><?php the_content(); ?></p>
           </div>
           <div class="col-md-5  mt-md-4 ">
-            <div class="fixed-cases ">
+            <div class="fixed-cases">
               <aside class="sidebar-cases pt-5">
                 <?php dynamic_sidebar('sidebar-cases'); ?>
               </aside>

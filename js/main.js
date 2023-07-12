@@ -165,7 +165,20 @@ window.addEventListener('load', () => {
   });
 });
 
-
+$(document).ready(function() {
+  window.addEventListener('scroll', function() {
+    let stickySidebar = document.querySelector('#stickySidebar');
+    let rect = stickySidebar.getBoundingClientRect();
+    let topOffset = rect.top;
+  
+    if (topOffset <= 0) {
+      stickySidebar.classList.add('sticky-sidebar');
+    } else {
+      stickySidebar.classList.remove('sticky-sidebar');
+    }
+  });
+  });
+  
 const hamburger = document.querySelector("#nav-icon");
 hamburger.addEventListener("click", function () {
   document.querySelector(".side-nav-list").classList.toggle("slide-in");
@@ -241,7 +254,6 @@ const redDot = () => {
   });
 };
 redDot();
-
 
 
 

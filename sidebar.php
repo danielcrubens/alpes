@@ -1,7 +1,7 @@
 <?php // Adicionar barra lateral
-    dynamic_sidebar('Barra Lateral Alpes');
+dynamic_sidebar('Barra Lateral Alpes');
 ?>
 
-<div class="news-form">
+<div class="news-form  fixed-form">
     <?php echo do_shortcode('[contact-form-7 id="12" title="Formulário de contato 1"]'); ?>
 </div>

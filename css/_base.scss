@@ -4,7 +4,7 @@ p {
   font-weight: 400;
 }
 
-body{
+body {
   background: $dark-blue;
 }
 body.login {
@@ -25,6 +25,29 @@ body.login {
   background-size: 65%;
   width: 100%;
 }
-
-
+.breadcrumbs {
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  bottom: 2rem;
+  color: $white;
+  gap: 0.5rem;
+  span {
+    /* color: $white; */
+    font-size: 13px;
+  }
+  a {
+    color: $white;
+    transition: 500ms ease-in-out;
+    &:hover {
+      color: $blue;
+    }
+  }
+}
+.fixed-form {
+  position: sticky;
+  top: 4rem;
+  height: auto;
+  display: block;
+}
 

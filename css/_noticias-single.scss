@@ -7,6 +7,7 @@
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     color: $text-dark-blue;
+    font-size: 15px;
   }
   .bg-cloud {
     position: relative;
@@ -139,9 +140,10 @@
   }
   .fixed-cases {
     position: sticky;
-    top:2rem;
+    top:4rem;
     height: auto;
     display: block;
+    background: pink;
     img{
       max-width: 100%;
       height: auto;

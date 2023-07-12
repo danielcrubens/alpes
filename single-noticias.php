@@ -30,16 +30,17 @@
                 </div>
                 <p class=""><?php the_content(); ?></p>
               </div>
-              <div class="col-xl-4 col-md-5 mt-5 mt-md-5 sidebar-single d-none d-md-block">
+              <div class="col-xl-4 col-md-5 mt-5 mt-md-5 sidebar-single-text d-none d-md-block">
                 <?php get_sidebar(); ?>
               </div>
-          <?php endwhile;
+            <?php endwhile; ?>
+          <?php else : get_404_template();
           endif; ?>
         </div>
       </div>
     </div>
     <div class="col-xl-11 py-5 d-flex justify-content-around  m-auto align-items-center custom-post">
-      <div class="container-fluid">
+      <div class="container-fluid pt-md-5">
         <h2 class="h2-responsive mb-3 scroll-down">Relacionadas</h2>
         <div class="row d-flex justify-content-between  align-items-center scroll-down">
           <?php
