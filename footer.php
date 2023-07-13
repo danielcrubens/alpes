@@ -11,7 +11,7 @@
           <h2 class="h2-responsive text-center text-md-left py-4 py-md-0">DÊ O SEU PRIMEIRO <span class="px-2 bg-blue">PASSO</span></h2>
         </div>
         <div class="d-flex">
-          <a class=" m-auto d-flex white-text"><span class="px-5 bg-blue">VER MAIS</span></a>
+          <a href="<?php echo esc_url(home_url('/')); ?>contato" class=" m-auto d-flex white-text"><span class="px-5 bg-blue">VER MAIS</span></a>
         </div>
         <div class="d-flex flex-column justify-content-center align-items-center m-auto pt-5 pb-5">
           <p class="white-text m-0 d-none d-md-block"><a class="text-white" href="http://"> <span class="mx-2">FACEBOOK </span> </a>| <a class="text-white"href="http://"> <span class="mx-2">INSTAGRAM </span></a> |  <a class="text-white" href="http://"><span class="mx-2">LINKEDIN</span></a></p>
