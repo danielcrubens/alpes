@@ -1,14 +1,13 @@
 header {
-  nav{
- 
+  nav {
     .nav-list {
       li {
         a {
           color: $white;
           text-transform: uppercase;
           font-size: 16px;
-              text-decoration-line: none;
-    
+          text-decoration-line: none;
+
           position: relative;
           .hover-line {
             content: "";
@@ -20,7 +19,7 @@ header {
             left: 0;
             background: linear-gradient(270deg, $white 0%, $blue 100%);
             transform-origin: bottom right;
-            transition: transform .4s cubic-bezier(0.86, 0, 0.07, 1);
+            transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
           }
           &:hover {
             .hover-line {
@@ -32,17 +31,15 @@ header {
       }
     }
   }
-  
-  .top-nav-collapse {
- background: $dark-blue-opacity!important;
 
+  .top-nav-collapse {
+    background: $dark-blue-opacity !important;
   }
-  
+
   .navbar:not(.top-nav-collapse) {
     background: transparent !important;
   }
-  .logo{
-    background: red;
+  .logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,11 +50,7 @@ header {
     width: 0;
   }
   .custom-logo-link {
-   /*  width: auto;
-    height: auto;
-    margin: 0 auto; */
-    
-    @include sm{
+    @include sm {
       width: 3rem;
       height: 2rem;
       display: flex;
@@ -69,7 +62,6 @@ header {
   .custom-logo-link {
     width: auto;
     height: auto;
-   /*  margin: 0 7.5rem; */
     img {
       @include sm {
         width: 3rem;
@@ -77,18 +69,22 @@ header {
       }
     }
   }
-
+  .mobile {
+    a {
+      margin: 0 auto;
+    }
+  }
   .side-nav {
     .navbar:not(.top-nav-collapse) {
-      background:$dark-blue-opacity!important;
+      background: $dark-blue-opacity !important;
     }
-  
+
     position: fixed;
     height: 0;
     width: 100%;
     z-index: 9999;
     top: 0;
-  
+
     &-list {
       position: relative;
       right: -100%;
@@ -98,17 +94,17 @@ header {
       list-style: none;
       margin: 0;
       padding: 0;
-      background:$dark-blue-opacity;
+      background: $dark-blue-opacity;
       transition: all 0.4s linear;
     }
-  
+
     &-item {
       display: block;
       margin: 0.9rem 0;
       padding: 0;
       text-align: center;
     }
-  
+
     .hamburger {
       width: 2.3rem;
       height: 2rem;
@@ -140,7 +136,7 @@ header {
           top: 0.5rem;
         }
       }
-  
+
       &.close-nav {
         .bar {
           height: 0;
@@ -158,11 +154,8 @@ header {
       }
     }
   }
-  
+
   .slide-in {
-    right:0;
+    right: 0;
   }
 }
-
-
- 
